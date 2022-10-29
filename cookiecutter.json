@@ -1,0 +1,10 @@
+{
+    "project_name": "MyProject",
+    "one_line_description": "One line description in less than 10 words.",
+    "author": "Charlstown",
+    "user_git": "{{cookiecutter.author}}",
+    "maintainer": "{{cookiecutter.author}}",
+    "license": "Apache 2.0",
+    "version": 1.0,
+    "contact": "@charlstown"
+}
