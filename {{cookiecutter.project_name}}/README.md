@@ -1,7 +1,7 @@
 # {cookiecutter.project_name}
-{cookiecutter.one_line_description}
+{{cookiecutter.one_line_description}}
 
-*Repository url:* https://github.com/{cookiecutter.user_git}/{cookiecutter.project_name}
+*Repository url:* https://github.com/{{cookiecutter.user_git}/{cookiecutter.project_name|lower}}
 
 ---
 
@@ -15,7 +15,7 @@ How to set up all requirements, versions everything needed to start running the 
 
 #### 	2.1 Sections
 
-​	Create sub-sections if needed to divide the Installation by a hierarchy.
+Create sub-sections if needed to divide the Installation by a hierarchy.
 
 ## 3. Usage
 
