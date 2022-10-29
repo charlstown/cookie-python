@@ -1,7 +1,7 @@
 # {cookiecutter.project_name}
 {{cookiecutter.one_line_description}}
 
-*Repository url:* https://github.com/{{cookiecutter.user_git}/{{cookiecutter.project_name|lower}}
+*Repository url:* https://github.com/{{cookiecutter.user_git}}/{{cookiecutter.project_name|lower}}
 
 ---
 
