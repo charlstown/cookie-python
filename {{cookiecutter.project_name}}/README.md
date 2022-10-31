@@ -32,7 +32,7 @@ Errors, future updates, or beta configurations. Explain why and how it could bre
 
 ## 5. Disclaimer
 
-Explain the do's and don'ts of your app, what you take responsibility for, and where is the limit of its purpose.
+Explain the dos and don'ts of your app, what you take responsibility for, and where is the limit of its purpose.
 
 ## 6. Help wanted
 

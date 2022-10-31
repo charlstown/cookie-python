@@ -1,0 +1,149 @@
+Initial args:
+- config: data/config.yaml
+- test: False
+
+
+--- Initializing the app ---
+{'path_logs': 'data/logs/file.log', 'example_string': 'This is an string', 'example_integer': 2077, 'example_float': 2.077, 'example_boolean': True, 'example_none': 'None', 'example_list': ['A', 'B', 'C'], 'example_dictionary': {'key_a': 'value_a', 'key_b': 'value_b'}, 'example_set': {'a', 1, 2, 'b'}, 'example_anchor': 'data_to_duplicate', 'example_run_anchor': 'data_to_duplicate'}
+2022-10-30 16:02:10,740.740 INFO main - <module>: Initial args:
+2022-10-30 16:02:10,740.740 INFO main - <module>: - config: data/config.yaml
+2022-10-30 16:02:10,740.740 INFO main - <module>: - test: False
+2022-10-30 16:02:10,740.740 INFO main - <module>: 
+
+2022-10-30 16:02:10,746.746 INFO main - run: --- Initializing the app ---
+2022-10-30 16:02:10,746.746 INFO main - run: {'path_logs': 'data/logs/file.log', 'example_string': 'This is an string', 'example_integer': 2077, 'example_float': 2.077, 'example_boolean': True, 'example_none': 'None', 'example_list': ['A', 'B', 'C'], 'example_dictionary': {'key_a': 'value_a', 'key_b': 'value_b'}, 'example_set': {'b', 1, 'a', 2}, 'example_anchor': 'data_to_duplicate', 'example_run_anchor': 'data_to_duplicate'}
+2022-10-30 16:07:26,213.213 INFO main main.py:99  - <module>: Initial args:
+2022-10-30 16:07:26,213.213 INFO main main.py:103  - <module>: - config: data/config.yaml
+2022-10-30 16:07:26,213.213 INFO main main.py:103  - <module>: - test: False
+2022-10-30 16:07:26,213.213 INFO main main.py:104  - <module>: 
+
+2022-10-30 16:07:26,217.217 INFO main main.py:53  - run: --- Initializing the app ---
+2022-10-30 16:07:26,217.217 INFO main main.py:56  - run: {'path_logs': 'data/logs/file.log', 'example_string': 'This is an string', 'example_integer': 2077, 'example_float': 2.077, 'example_boolean': True, 'example_none': 'None', 'example_list': ['A', 'B', 'C'], 'example_dictionary': {'key_a': 'value_a', 'key_b': 'value_b'}, 'example_set': {1, 'b', 2, 'a'}, 'example_anchor': 'data_to_duplicate', 'example_run_anchor': 'data_to_duplicate'}
+2022-10-30 16:18:22,207.207 INFO main: 97  - <module>: Initial args:
+2022-10-30 16:18:22,207.207 INFO main: 101  - <module>: - config: data/config.yaml
+2022-10-30 16:18:22,207.207 INFO main: 101  - <module>: - test: False
+2022-10-30 16:18:22,207.207 INFO main: 102  - <module>: 
+
+2022-10-30 16:18:22,210.210 INFO main: 53  - run: --- Initializing the app ---
+2022-10-30 16:18:22,210.210 INFO test: 21  - example_method: This is a test
+2022-10-30 16:18:22,211.211 INFO test: 22  - example_method: {'path_logs': 'data/logs/file.log', 'example_string': 'This is an string', 'example_integer': 2077, 'example_float': 2.077, 'example_boolean': True, 'example_none': 'None', 'example_list': ['A', 'B', 'C'], 'example_dictionary': {'key_a': 'value_a', 'key_b': 'value_b'}, 'example_set': {2, 1, 'b', 'a'}, 'example_anchor': 'data_to_duplicate', 'example_run_anchor': 'data_to_duplicate'}
+2022-10-30 16:19:47,943.943 INFO <module> (97)  - <module>: Initial args:
+2022-10-30 16:19:47,943.943 INFO <module> (101)  - <module>: - config: data/config.yaml
+2022-10-30 16:19:47,944.944 INFO <module> (101)  - <module>: - test: False
+2022-10-30 16:19:47,944.944 INFO <module> (102)  - <module>: 
+
+2022-10-30 16:19:47,948.948 INFO run (53)  - run: --- Initializing the app ---
+2022-10-30 16:19:47,949.949 INFO example_method (21)  - example_method: This is a test
+2022-10-30 16:19:47,949.949 INFO example_method (22)  - example_method: {'path_logs': 'data/logs/file.log', 'example_string': 'This is an string', 'example_integer': 2077, 'example_float': 2.077, 'example_boolean': True, 'example_none': 'None', 'example_list': ['A', 'B', 'C'], 'example_dictionary': {'key_a': 'value_a', 'key_b': 'value_b'}, 'example_set': {1, 2, 'a', 'b'}, 'example_anchor': 'data_to_duplicate', 'example_run_anchor': 'data_to_duplicate'}
+2022-10-30 16:20:11,009.9 INFO <module> (97)  - <module>: Initial args:
+2022-10-30 16:20:11,009.9 INFO <module> (101)  - <module>: - config: data/config.yaml
+2022-10-30 16:20:11,009.9 INFO <module> (101)  - <module>: - test: False
+2022-10-30 16:20:11,009.9 INFO <module> (102)  - <module>: 
+
+2022-10-30 16:20:11,015.15 INFO run (53)  - run: --- Initializing the app ---
+2022-10-30 16:20:11,015.15 INFO example_method (21)  - example_method: This is a test
+2022-10-30 16:20:11,015.15 INFO example_method (22)  - example_method: {'path_logs': 'data/logs/file.log', 'example_string': 'This is an string', 'example_integer': 2077, 'example_float': 2.077, 'example_boolean': True, 'example_none': 'None', 'example_list': ['A', 'B', 'C'], 'example_dictionary': {'key_a': 'value_a', 'key_b': 'value_b'}, 'example_set': {'a', 2, 1, 'b'}, 'example_anchor': 'data_to_duplicate', 'example_run_anchor': 'data_to_duplicate'}
+2022-10-30 16:20:26,099.99 INFO <module> (97)  - <module>: Initial args:
+2022-10-30 16:20:26,100.100 INFO <module> (101)  - <module>: - config: data/config.yaml
+2022-10-30 16:20:26,100.100 INFO <module> (101)  - <module>: - test: False
+2022-10-30 16:20:26,100.100 INFO <module> (102)  - <module>: 
+
+2022-10-30 16:20:26,103.103 INFO run (53)  - run: --- Initializing the app ---
+2022-10-30 16:20:26,103.103 INFO example_method (21)  - example_method: This is a test
+2022-10-30 16:20:26,103.103 INFO example_method (22)  - example_method: {'path_logs': 'data/logs/file.log', 'example_string': 'This is an string', 'example_integer': 2077, 'example_float': 2.077, 'example_boolean': True, 'example_none': 'None', 'example_list': ['A', 'B', 'C'], 'example_dictionary': {'key_a': 'value_a', 'key_b': 'value_b'}, 'example_set': {'a', 1, 2, 'b'}, 'example_anchor': 'data_to_duplicate', 'example_run_anchor': 'data_to_duplicate'}
+2022-10-30 16:20:43,948.948 INFO <module> (97)  - <module>: Initial args:
+2022-10-30 16:20:43,949.949 INFO <module> (101)  - <module>: - config: data/config.yaml
+2022-10-30 16:20:43,949.949 INFO <module> (101)  - <module>: - test: False
+2022-10-30 16:20:43,949.949 INFO <module> (102)  - <module>: 
+
+2022-10-30 16:20:43,952.952 INFO run (53)  - run: --- Initializing the app ---
+2022-10-30 16:20:43,952.952 INFO example_method (21)  - example_method: This is a test
+2022-10-30 16:20:43,952.952 INFO example_method (22)  - example_method: {'path_logs': 'data/logs/file.log', 'example_string': 'This is an string', 'example_integer': 2077, 'example_float': 2.077, 'example_boolean': True, 'example_none': 'None', 'example_list': ['A', 'B', 'C'], 'example_dictionary': {'key_a': 'value_a', 'key_b': 'value_b'}, 'example_set': {1, 2, 'b', 'a'}, 'example_anchor': 'data_to_duplicate', 'example_run_anchor': 'data_to_duplicate'}
+2022-10-30 16:20:52,767.767 INFO <module> (97)  - <module>: Initial args:
+2022-10-30 16:20:52,768.768 INFO <module> (101)  - <module>: - config: data/config.yaml
+2022-10-30 16:20:52,769.769 INFO <module> (101)  - <module>: - test: False
+2022-10-30 16:20:52,769.769 INFO <module> (102)  - <module>: 
+
+2022-10-30 16:20:52,772.772 INFO run (53)  - run: --- Initializing the app ---
+2022-10-30 16:20:52,773.773 INFO example_method (21)  - example_method: This is a test
+2022-10-30 16:20:52,774.774 INFO example_method (22)  - example_method: {'path_logs': 'data/logs/file.log', 'example_string': 'This is an string', 'example_integer': 2077, 'example_float': 2.077, 'example_boolean': True, 'example_none': 'None', 'example_list': ['A', 'B', 'C'], 'example_dictionary': {'key_a': 'value_a', 'key_b': 'value_b'}, 'example_set': {'a', 'b', 2, 1}, 'example_anchor': 'data_to_duplicate', 'example_run_anchor': 'data_to_duplicate'}
+2022-10-30 16:21:01,593.593 INFO <module> (97)  - <module>: Initial args:
+2022-10-30 16:21:01,593.593 INFO <module> (101)  - <module>: - config: data/config.yaml
+2022-10-30 16:21:01,593.593 INFO <module> (101)  - <module>: - test: False
+2022-10-30 16:21:01,594.594 INFO <module> (102)  - <module>: 
+
+2022-10-30 16:21:01,597.597 INFO run (53)  - run: --- Initializing the app ---
+2022-10-30 16:21:01,597.597 INFO example_method (21)  - example_method: This is a test
+2022-10-30 16:21:01,597.597 INFO example_method (22)  - example_method: {'path_logs': 'data/logs/file.log', 'example_string': 'This is an string', 'example_integer': 2077, 'example_float': 2.077, 'example_boolean': True, 'example_none': 'None', 'example_list': ['A', 'B', 'C'], 'example_dictionary': {'key_a': 'value_a', 'key_b': 'value_b'}, 'example_set': {2, 1, 'a', 'b'}, 'example_anchor': 'data_to_duplicate', 'example_run_anchor': 'data_to_duplicate'}
+2022-10-30 16:21:13,838.838 INFO <module> (97)  - <module>: Initial args:
+2022-10-30 16:21:13,838.838 INFO <module> (101)  - <module>: - config: data/config.yaml
+2022-10-30 16:21:13,838.838 INFO <module> (101)  - <module>: - test: False
+2022-10-30 16:21:13,838.838 INFO <module> (102)  - <module>: 
+
+2022-10-30 16:21:13,843.843 INFO run (53)  - run: --- Initializing the app ---
+2022-10-30 16:21:13,843.843 INFO example_method (21)  - example_method: This is a test
+2022-10-30 16:21:13,844.844 INFO example_method (22)  - example_method: {'path_logs': 'data/logs/file.log', 'example_string': 'This is an string', 'example_integer': 2077, 'example_float': 2.077, 'example_boolean': True, 'example_none': 'None', 'example_list': ['A', 'B', 'C'], 'example_dictionary': {'key_a': 'value_a', 'key_b': 'value_b'}, 'example_set': {1, 2, 'a', 'b'}, 'example_anchor': 'data_to_duplicate', 'example_run_anchor': 'data_to_duplicate'}
+2022-10-30 16:21:35,630.630 INFO <module> (97)  - <module>: Initial args:
+2022-10-30 16:21:35,631.631 INFO <module> (101)  - <module>: - config: data/config.yaml
+2022-10-30 16:21:35,631.631 INFO <module> (101)  - <module>: - test: False
+2022-10-30 16:21:35,631.631 INFO <module> (102)  - <module>: 
+
+2022-10-30 16:21:35,634.634 INFO run (53)  - run: --- Initializing the app ---
+2022-10-30 16:21:35,634.634 INFO example_method (21)  - example_method: This is a test
+2022-10-30 16:21:35,635.635 INFO example_method (22)  - example_method: {'path_logs': 'data/logs/file.log', 'example_string': 'This is an string', 'example_integer': 2077, 'example_float': 2.077, 'example_boolean': True, 'example_none': 'None', 'example_list': ['A', 'B', 'C'], 'example_dictionary': {'key_a': 'value_a', 'key_b': 'value_b'}, 'example_set': {1, 'a', 2, 'b'}, 'example_anchor': 'data_to_duplicate', 'example_run_anchor': 'data_to_duplicate'}
+2022-10-30 16:22:24,201.201 INFO <module> (97)  - <module>: Initial args:
+2022-10-30 16:22:24,201.201 INFO <module> (101)  - <module>: - config: data/config.yaml
+2022-10-30 16:22:24,202.202 INFO <module> (101)  - <module>: - test: False
+2022-10-30 16:22:24,202.202 INFO <module> (102)  - <module>: 
+
+2022-10-30 16:22:24,204.204 INFO run (53)  - run: --- Initializing the app ---
+2022-10-30 16:22:24,205.205 INFO example_method (21)  - example_method: This is a test
+2022-10-30 16:22:24,205.205 INFO example_method (22)  - example_method: {'path_logs': 'data/logs/file.log', 'example_string': 'This is an string', 'example_integer': 2077, 'example_float': 2.077, 'example_boolean': True, 'example_none': 'None', 'example_list': ['A', 'B', 'C'], 'example_dictionary': {'key_a': 'value_a', 'key_b': 'value_b'}, 'example_set': {1, 2, 'a', 'b'}, 'example_anchor': 'data_to_duplicate', 'example_run_anchor': 'data_to_duplicate'}
+2022-10-30 16:22:49,367.367 INFO <module> (97)  - <module>: Initial args:
+2022-10-30 16:22:49,368.368 INFO <module> (101)  - <module>: - config: data/config.yaml
+2022-10-30 16:22:49,369.369 INFO <module> (101)  - <module>: - test: False
+2022-10-30 16:22:49,369.369 INFO <module> (102)  - <module>: 
+
+2022-10-30 16:22:49,373.373 INFO run (53)  - run: --- Initializing the app ---
+2022-10-30 16:22:49,373.373 INFO example_method (21)  - example_method: This is a test
+2022-10-30 16:22:49,374.374 INFO example_method (22)  - example_method: {'path_logs': 'data/logs/file.log', 'example_string': 'This is an string', 'example_integer': 2077, 'example_float': 2.077, 'example_boolean': True, 'example_none': 'None', 'example_list': ['A', 'B', 'C'], 'example_dictionary': {'key_a': 'value_a', 'key_b': 'value_b'}, 'example_set': {'b', 2, 'a', 1}, 'example_anchor': 'data_to_duplicate', 'example_run_anchor': 'data_to_duplicate'}
+2022-10-30 16:23:06,691.691 INFO <module> (97)  - <module>: Initial args:
+2022-10-30 16:23:06,692.692 INFO <module> (101)  - <module>: - config: data/config.yaml
+2022-10-30 16:23:06,692.692 INFO <module> (101)  - <module>: - test: False
+2022-10-30 16:23:06,692.692 INFO <module> (102)  - <module>: 
+
+2022-10-30 16:23:06,694.694 INFO run (53)  - run: --- Initializing the app ---
+2022-10-30 16:23:06,695.695 INFO example_method (21)  - example_method: This is a test
+2022-10-30 16:23:06,695.695 INFO example_method (22)  - example_method: {'path_logs': 'data/logs/file.log', 'example_string': 'This is an string', 'example_integer': 2077, 'example_float': 2.077, 'example_boolean': True, 'example_none': 'None', 'example_list': ['A', 'B', 'C'], 'example_dictionary': {'key_a': 'value_a', 'key_b': 'value_b'}, 'example_set': {'a', 'b', 2, 1}, 'example_anchor': 'data_to_duplicate', 'example_run_anchor': 'data_to_duplicate'}
+2022-10-30 16:24:16,486.486 [INFO] main.py (L97) - <module>: Initial args:
+2022-10-30 16:24:16,486.486 [INFO] main.py (L101) - <module>: - config: data/config.yaml
+2022-10-30 16:24:16,487.487 [INFO] main.py (L101) - <module>: - test: False
+2022-10-30 16:24:16,487.487 [INFO] main.py (L102) - <module>: 
+
+2022-10-30 16:24:16,490.490 [INFO] main.py (L53) - run: --- Initializing the app ---
+2022-10-30 16:24:16,490.490 [INFO] test.py (L21) - example_method: This is a test
+2022-10-30 16:24:16,490.490 [INFO] test.py (L22) - example_method: {'path_logs': 'data/logs/file.log', 'example_string': 'This is an string', 'example_integer': 2077, 'example_float': 2.077, 'example_boolean': True, 'example_none': 'None', 'example_list': ['A', 'B', 'C'], 'example_dictionary': {'key_a': 'value_a', 'key_b': 'value_b'}, 'example_set': {1, 2, 'b', 'a'}, 'example_anchor': 'data_to_duplicate', 'example_run_anchor': 'data_to_duplicate'}
+2022-10-30 16:26:27,368.368 [INFO] main.py (L97) - <module>: Initial args:
+2022-10-30 16:26:27,369.369 [INFO] main.py (L101) - <module>: - config: data/config.yaml
+2022-10-30 16:26:27,369.369 [INFO] main.py (L101) - <module>: - test: False
+2022-10-30 16:26:27,369.369 [INFO] main.py (L102) - <module>: 
+
+2022-10-30 16:26:27,372.372 [INFO] main.py (L53) - run: --- Initializing the app ---
+2022-10-30 16:26:27,372.372 [INFO] test.py (L21) - example_method: This is a test
+2022-10-30 16:26:27,373.373 [INFO] test.py (L22) - example_method: {'path_logs': 'data/logs/file.log', 'example_string': 'This is an string', 'example_integer': 2077, 'example_float': 2.077, 'example_boolean': True, 'example_none': 'None', 'example_list': ['A', 'B', 'C'], 'example_dictionary': {'key_a': 'value_a', 'key_b': 'value_b'}, 'example_set': {'b', 'a', 2, 1}, 'example_anchor': 'data_to_duplicate', 'example_run_anchor': 'data_to_duplicate'}
+2022-10-30 16:27:51,971.971 [INFO] main.py (L98) - <module>: Initial args:
+2022-10-30 16:27:51,971.971 [INFO] main.py (L102) - <module>: - config: data/config.yaml
+2022-10-30 16:27:51,972.972 [INFO] main.py (L102) - <module>: - test: False
+2022-10-30 16:27:51,972.972 [INFO] main.py (L103) - <module>: 
+
+2022-10-30 16:27:51,976.976 [INFO] main.py (L53) - run: --- Initializing the app ---
+2022-10-30 16:27:51,976.976 [INFO] test.py (L21) - example_method: This is a test
+2022-10-30 16:27:51,976.976 [INFO] test.py (L22) - example_method: {'path_logs': 'data/logs/file.log', 'example_string': 'This is an string', 'example_integer': 2077, 'example_float': 2.077, 'example_boolean': True, 'example_none': 'None', 'example_list': ['A', 'B', 'C'], 'example_dictionary': {'key_a': 'value_a', 'key_b': 'value_b'}, 'example_set': {'b', 1, 2, 'a'}, 'example_anchor': 'data_to_duplicate', 'example_run_anchor': 'data_to_duplicate'}
+2022-10-30 16:29:02,033.33 [INFO] main.py (L91) - <module>: Initial args:
+2022-10-30 16:29:02,033.33 [INFO] main.py (L95) - <module>: - config: data/config.yaml
+2022-10-30 16:29:02,033.33 [INFO] main.py (L95) - <module>: - test: False
+2022-10-30 16:29:02,034.34 [INFO] main.py (L96) - <module>: 
+
+2022-10-30 16:29:02,036.36 [INFO] main.py (L53) - run: --- Initializing the app ---
+2022-10-30 16:29:02,036.36 [INFO] test.py (L21) - example_method: This is a test
+2022-10-30 16:29:02,037.37 [INFO] test.py (L22) - example_method: {'path_logs': 'data/logs/file.log', 'example_string': 'This is an string', 'example_integer': 2077, 'example_float': 2.077, 'example_boolean': True, 'example_none': 'None', 'example_list': ['A', 'B', 'C'], 'example_dictionary': {'key_a': 'value_a', 'key_b': 'value_b'}, 'example_set': {'b', 2, 'a', 1}, 'example_anchor': 'data_to_duplicate', 'example_run_anchor': 'data_to_duplicate'}

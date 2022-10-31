@@ -16,6 +16,9 @@ import argparse
 import yaml
 import logging
 
+# Classes
+from test import Test
+
 
 class App:
     """
@@ -34,42 +37,63 @@ class App:
         yaml_file = open(dir_config, 'r')
         config = yaml.safe_load(yaml_file)
 
-        # Variables
+        # Global variables
         self.config = config
         self.log = logger
 
-        # Instance
+        # Global instances
+        self.test = Test(logger=logger, config=config)
 
     def run(self):
         """
         This method runs the whole app and manage all calls.
         :return:
         """
-        self.log.info("Initializing the app")
-        # Run first module method
-        self.log.info(self.config)
+        # Initializing the app
+        self.log.info("--- Initializing the app ---")
 
-        # Run second module method
+        # Run example module method
+        self.test.example_method()
 
 
 # Starting the app when main
 if __name__ == "__main__":
     # Initialize the argument parser
     parser = argparse.ArgumentParser()
-    parser.add_argument("--config", "-c", default="data/config.yaml",
+    parser.add_argument("--config", "-c",
+                        default="data/config.yaml",
                         help="Add the config file path after this flag")
-    parser.add_argument("--test", "-t", default=False, action='store_true',
+    parser.add_argument("--test", "-t",
+                        default=False,
+                        action='store_true',
                         help="This argument is a switcher, by default is false")
     args = parser.parse_args()
 
     # Argument variables
     arg_config = args.config
     arg_test = args.test
-    logging.basicConfig(level=logging.INFO)
-    my_logger = logging.getLogger('APP')
-    print("Initial args:")
-    print(f"- Config: {arg_config}")
-    print(f"- Test: {arg_test}", '\n')
+
+    # Setting up the logger and output level
+    logging.basicConfig(level=logging.INFO,
+                        format='%(asctime)s [%(levelname)s] %(filename)s (L%(lineno)s) - %(funcName)s: %(message)s',
+                        datefmt='%Y-%m-%d %H:%M:%S',)
+    my_logger = logging.getLogger(__name__)
+
+    # Create file handler
+    file_handler = logging.FileHandler('data/logs/file.log')
+    file_handler.setLevel(logging.DEBUG)
+    f_format = logging.Formatter('%(asctime)s.%(msecs)00d [%(levelname)s] %(filename)s (L%(lineno)s) - %(funcName)s: %(message)s')
+    file_handler.setFormatter(f_format)
+
+    # Add handlers to the logger
+    my_logger.addHandler(file_handler)
+
+    my_logger.info("Initial args:")
+
+    # Logging argument variables
+    for k, v in vars(args).items():
+        my_logger.info(f"- {k}: {v}")
+    my_logger.info("\n")
 
     # App execution
     my_app = App(logger=my_logger, dir_config=arg_config)

@@ -8,7 +8,11 @@
 # Contact: {{cookiecutter.contact}}
 # -----------------------------------------------------
 
-# Configuration parameters
+# Paths configuration parameters
+path_logs: data/logs/file.log
+
+
+# Example configuration parameters
 example_string: This is an string
 example_integer: 2077
 example_float: 2.077
