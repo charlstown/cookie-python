@@ -38,6 +38,10 @@ class App:
         test = args.test
         arg_level = args.log[0]
 
+        # Reading the config json file
+        yaml_file = open(dir_config, 'r')
+        config = yaml.safe_load(yaml_file)
+
         # Getting logger
         logger = self._get_logger(level=arg_level)
 
@@ -47,10 +51,6 @@ class App:
         for k, v in vars(args).items():
             logger.debug(f">> {k}: {v}")
         logger.debug("\n")
-
-        # Reading the config json file
-        yaml_file = open(dir_config, 'r')
-        config = yaml.safe_load(yaml_file)
 
         # Global variables
         self.config = config
@@ -90,7 +90,7 @@ class App:
         :return:
         """
         # Initializing the app
-        self.log.info("--- Initializing the app ---")
+        self.log.info(f"--- Initializing {self.config['project_name']} ---")
 
         # Run example module method
         self.test.example_method()
