@@ -23,9 +23,16 @@ GitHub: https://github.com/cookiecutter/cookiecutter
 
 # 2. Installation
 
+To create the project from the template you need to install cookiecutter and follow these instructions.
+
 ## 2.1 Cookiecutter installation
 
-Installing cookiecutter package on Ubuntu is very easy, visit the link to the cookiecutter documentation to learn how to install it.
+Installing cookiecutter package on Ubuntu is very easy, you can simply run the next command to install it.
+```
+pip install cookiecutter
+```
+
+Visit the link to the cookiecutter documentation to learn more about the installation:  
 [Install cookiecutter](https://cookiecutter.readthedocs.io/en/stable/installation.html#install-cookiecutter)
 
 
