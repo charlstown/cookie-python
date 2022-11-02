@@ -1,17 +1,19 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 # -----------------------------------------------------
-# Configuration file for the project {{cookiecutter.project_name}}
+# Project: {{cookiecutter.project_name}}
 # Author/s: {{cookiecutter.author}}
 # -----------------------------------------------------
 # Date: {% now 'local', '%d/%m/%Y' %}
 # License: {{cookiecutter.license}}
 # Version: {{cookiecutter.version}}
-# Maintainer: {{cookiecutter.maintainer}}
+# Maintainer/s: {{cookiecutter.maintainer}}
 # Contact: {{cookiecutter.contact}}
 # -----------------------------------------------------
 
 # Libraries
+import sys
+import time
 import argparse
 import yaml
 import logging
@@ -28,10 +30,9 @@ class App:
 
     def __init__(self, args: argparse.Namespace):
         """
-        Class constructor: Here you should read the config file, generate
-        the instances from modules and declare global variables.
-        :param logger:
-        :param dir_config: Explain the dir_config parameter.
+        Constructor method to read the configuration parameters, generate the instances from modules and declare the
+        global variables
+        :param args: arguments from the command input flags
         """
         # Argument variables
         dir_config = args.config
@@ -59,7 +60,13 @@ class App:
         # Global instances
         self.example_class = ExampleClass(logger=logger, config=config)
 
-    def _get_logger(self, level: str):
+    @staticmethod
+    def _get_logger(level: str) -> logging.Logger:
+        """
+        Method to generate the logger used in the project
+        :param level: the level of the logs to output
+        :return: the custom logger
+        """
         # Setting up the output level
         levels = {'debug': logging.DEBUG,
                   'info': logging.INFO,
@@ -86,14 +93,23 @@ class App:
 
     def run(self):
         """
-        This method runs the whole app and manage all calls.
+        Main method to run the whole app and manage all calls.
         :return:
         """
         # Initializing the app
-        self.log.info(f"--- Initializing {self.config['project_name']} ---")
+        start_app = time.time()
+        self.log.info(f"\033[1m[Initializing {self.config['project_name']}]\033[0m")
 
-        # Run example module method
+        # >>> Start your code here <<<
         self.example_class.public_method()
+
+        # Exiting the app
+        end_app = time.time()
+        elapsed_time = end_app - start_app
+        str_elapsed_time = time.strftime('%H:%M:%S.', time.gmtime(elapsed_time))
+        self.log.info(f"\033[1m[Exiting {self.config['project_name']} app."
+                      f"Total elapsed time: {str_elapsed_time}]\033[0m")
+        sys.exit(0)
 
 
 # Starting the app when main
