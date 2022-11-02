@@ -1,5 +1,5 @@
 # Table of Contents
-1. [Description](#1-what-is-pytemplate)
+1. [What is PyTemplate](#1-what-is-pytemplate)
 2. [Installation](#2-installation)
 3. [Usage](#3-usage)
 4. [Troubleshooting](#4-troubleshooting)
