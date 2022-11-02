@@ -17,7 +17,7 @@ import yaml
 import logging
 
 # Classes
-from test import Test
+from exampleclass import ExampleClass
 
 
 class App:
@@ -57,7 +57,7 @@ class App:
         self.log = logger
 
         # Global instances
-        self.test = Test(logger=logger, config=config)
+        self.example_class = ExampleClass(logger=logger, config=config)
 
     def _get_logger(self, level: str):
         # Setting up the output level
@@ -67,7 +67,7 @@ class App:
         set_level = levels[level]
 
         # Setting up the logger
-        set_log_format = '%(asctime)s [%(levelname)s] %(filename)s (L%(lineno)s) - %(funcName)s: %(message)s'
+        set_log_format = '%(asctime)s [%(levelname)s] %(filename)s - %(funcName)s (L%(lineno)s): %(message)s'
         set_date_format = '%Y-%m-%d %H:%M:%S'
         logging.basicConfig(level=set_level,
                             format=set_log_format,
@@ -93,7 +93,7 @@ class App:
         self.log.info(f"--- Initializing {self.config['project_name']} ---")
 
         # Run example module method
-        self.test.example_method()
+        self.example_class.public_method()
 
 
 # Starting the app when main
@@ -105,7 +105,7 @@ if __name__ == "__main__":
                         help="Add the config file path after this flag")
     parser.add_argument('--log', "-l",
                         choices=['debug', 'info', 'warning'],
-                        default="INFO",
+                        default=["info"],
                         nargs="+")
     parser.add_argument("--test", "-t",
                         default=False,
