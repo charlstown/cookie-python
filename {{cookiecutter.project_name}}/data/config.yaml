@@ -9,7 +9,7 @@
 # -----------------------------------------------------
 
 # Paths configuration parameters
-project_name: {{cookiecutter.project_name}}
+project_name: "{{cookiecutter.project_name}}"
 path_logs: data/logs/file.log
 
 
