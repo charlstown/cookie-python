@@ -1,6 +1,10 @@
 # {{cookiecutter.project_name}}
 {{cookiecutter.one_line_description}}
 
+</br>
+![Logo](data/logo.png)
+</br>
+
 *Repository url:* https://github.com/{{cookiecutter.user_git}}/{{cookiecutter.project_name|lower}}
 
 ---
