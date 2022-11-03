@@ -113,5 +113,11 @@ Some extra help or clarification about the whole process. What you don't provide
 
 # 7. Other links
 
-References, contact, or related repositories go here.
+This project is based on the Python project structure from this post:
+- [My-pythons-project-cheatsheet](https://carlosgrande.me/my-pythons-project-cheatsheet/)
+- [Repo here](https://github.com/charlstown/Python-Project-Structure)
 
+Interested links:
+- [carlosgrande.me](https://carlosgrande.me/)
+- [Cookiecutter documentation]( https://cookiecutter.readthedocs.io/)
+- [Coockiecutter official repository](https://github.com/cookiecutter/cookiecutter)
