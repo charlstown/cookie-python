@@ -1,3 +1,9 @@
+# PyTemplate
+A Python archetype to help developers begin developing a coding project.
+</br>
+
+![Logo](logo.png)
+
 # Table of Contents
 1. [What is PyTemplate](#1-what-is-pytemplate)
 2. [Installation](#2-installation)
@@ -11,7 +17,7 @@
 
 # 1. What is PyTemplate
 
-A Python archetype to help me and others begin developing a coding project. The archetype follows a customizable project structure using cookiecutter as a template generator.
+A Python archetype to help developers begin developing a coding project. The archetype follows a customizable project structure using cookiecutter as a template generator.
 
 ## 1.1 What is cookiecutter
 A command-line utility that creates projects from cookiecutters (project templates), e.g. creating a Python package project from a Python package project template.
