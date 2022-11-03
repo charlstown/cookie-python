@@ -20,6 +20,7 @@ Visit these links to learn more about cookiecutter.
 Documentation: https://cookiecutter.readthedocs.io/
 GitHub: https://github.com/cookiecutter/cookiecutter
 
+</br>
 
 # 2. Installation
 
@@ -45,6 +46,7 @@ To generate a custom project from the template, follow these steps:
   ```
 - 3. Fill out the form in the console and the project will be generated at the end.
 
+</br>
 
 # 3. Usage
 
@@ -95,21 +97,28 @@ You can start orchestrating your methods from the "run" method from the App clas
 self.example_class.public_method()
 ```
 
+</br>
 
 # 4. Troubleshooting
 
 Errors, future updates, or beta configurations. Explain why and how it could break.
 
+</br>
 
 # 5. Disclaimer
 
-Explain the dos and don'ts of your app, what you take responsibility for, and where is the limit of its purpose.
+This is an archetype template done in Python using the library cookiecutter. This template is intended to help coding in python.
 
+Do not use this template for any commercial nor redistribution purpose. Actually, the use of such tool might be allowed for open-source or private projects.
+
+</br>
 
 # 6. Help Wanted
 
-Some extra help or clarification about the whole process. What you don't provide.
+This repository does provide the required installation instructions to install it by your own.
+Feel free to contact me on https://carlosgrande.me/contact-me-carlos-grande/
 
+</br>
 
 # 7. Other links
 
