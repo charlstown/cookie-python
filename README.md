@@ -13,7 +13,7 @@ A Python archetype to help developers begin developing a coding project.
 6. [Help wanted](#6-help-wanted)
 7. [Other links](#7-other-links)
 
-</br>
+  
 
 # 1. What is PyTemplate
 
