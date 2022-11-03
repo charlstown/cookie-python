@@ -101,7 +101,8 @@ self.example_class.public_method()
 
 # 4. Troubleshooting
 
-Errors, future updates, or beta configurations. Explain why and how it could break.
+The main branch has been tested and before any push, we make sure everything is working fine.
+Feel fre to open a new issue if you see the archetype is no working correctly or any additional requirement is needed.
 
 </br>
 
