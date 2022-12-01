@@ -3,7 +3,6 @@
 [![python](https://img.shields.io/pypi/pyversions/cookiecutter.svg)](https://pypi.org/project/cookiecutter/)
 [![license](https://img.shields.io/badge/license-MIT-green.svg)](https://opensource.org/licenses/MIT)
 
-https://img.shields.io/badge/license-MIT-green
 A Python archetype to help developers begin developing a coding project.
 </br>
 
