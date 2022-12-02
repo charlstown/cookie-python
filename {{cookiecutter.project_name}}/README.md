@@ -1,7 +1,7 @@
 # {{cookiecutter.project_name}}
 
 [![python](https://img.shields.io/badge/python-%3E%3D%203.6-blue.svg)](https://pypi.org/project/cookiecutter/)
-[![license](https://img.shields.io/badge/license-{{coockicutter.license}}-green.svg)](https://opensource.org/licenses/MIT)
+[![license](https://img.shields.io/badge/license-{{coockicutter.license}}-green.svg)](https://choosealicense.com/licenses/)
 
 {{cookiecutter.one_line_description}}
 
