@@ -1,9 +1,9 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 # -----------------------------------------------------
-# Project: {{cookiecutter.project_name}}
-# Author/s: {{cookiecutter.author}}
-# Maintainer/s: {{cookiecutter.maintainer}}
+# Project: Python Project
+# Author/s: Carlos Grande
+# Maintainer/s: Carlos Grande
 # -----------------------------------------------------
 
 # Libraries

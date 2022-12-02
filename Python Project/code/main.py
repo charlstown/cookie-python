@@ -1,14 +1,14 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 # -----------------------------------------------------
-# Project: {{cookiecutter.project_name}}
-# Author/s: {{cookiecutter.author}}
+# Project: Python Project
+# Author/s: Carlos Grande
 # -----------------------------------------------------
-# Date: {% now 'local', '%d/%m/%Y' %}
-# License: {{cookiecutter.license}}
-# Version: {{cookiecutter.version}}
-# Maintainer/s: {{cookiecutter.maintainer}}
-# Environment: {{cookiecutter.env_name}}
+# Date: 02/12/2022
+# License: GNU General Public License
+# Version: 0.1.0
+# Maintainer/s: Carlos Grande
+# Environment: python-project
 # -----------------------------------------------------
 
 # Libraries
