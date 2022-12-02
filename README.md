@@ -1,3 +1,13 @@
+# PyTemplate
+
+[![python](https://img.shields.io/pypi/pyversions/cookiecutter.svg)](https://pypi.org/project/cookiecutter/)
+[![license](https://img.shields.io/badge/license-MIT-green.svg)](https://opensource.org/licenses/MIT)
+
+A Python archetype to help developers begin developing a coding project.
+</br>
+
+![Logo](logo.png)
+
 # Table of Contents
 1. [What is PyTemplate](#1-what-is-pytemplate)
 2. [Installation](#2-installation)
@@ -7,11 +17,11 @@
 6. [Help wanted](#6-help-wanted)
 7. [Other links](#7-other-links)
 
-</br>
+  
 
 # 1. What is PyTemplate
 
-A Python archetype to help me and others begin developing a coding project. The archetype follows a customizable project structure using cookiecutter as a template generator.
+A Python archetype to help developers begin developing a coding project. The archetype follows a customizable project structure using cookiecutter as a template generator.
 
 ## 1.1 What is cookiecutter
 A command-line utility that creates projects from cookiecutters (project templates), e.g. creating a Python package project from a Python package project template.
@@ -20,6 +30,7 @@ Visit these links to learn more about cookiecutter.
 Documentation: https://cookiecutter.readthedocs.io/
 GitHub: https://github.com/cookiecutter/cookiecutter
 
+</br>
 
 # 2. Installation
 
@@ -45,6 +56,7 @@ To generate a custom project from the template, follow these steps:
   ```
 - 3. Fill out the form in the console and the project will be generated at the end.
 
+</br>
 
 # 3. Usage
 
@@ -95,23 +107,37 @@ You can start orchestrating your methods from the "run" method from the App clas
 self.example_class.public_method()
 ```
 
+</br>
 
 # 4. Troubleshooting
 
-Errors, future updates, or beta configurations. Explain why and how it could break.
+The main branch has been tested and before any push, we make sure everything is working fine.
+Feel fre to open a new issue if you see the archetype is no working correctly or any additional requirement is needed.
 
+</br>
 
 # 5. Disclaimer
 
-Explain the dos and don'ts of your app, what you take responsibility for, and where is the limit of its purpose.
+This is an archetype template done in Python using the library cookiecutter. This template is intended to help coding in python.
 
+Do not use this template for any commercial nor redistribution purpose. Actually, the use of such tool might be allowed for open-source or private projects.
+
+</br>
 
 # 6. Help Wanted
 
-Some extra help or clarification about the whole process. What you don't provide.
+This repository does provide the required installation instructions to install it by your own.
+Feel free to contact me on https://carlosgrande.me/contact-me-carlos-grande/
 
+</br>
 
 # 7. Other links
 
-References, contact, or related repositories go here.
+This project is based on the Python project structure from this post:
+- [My-pythons-project-cheatsheet](https://carlosgrande.me/my-pythons-project-cheatsheet/)
+- [Repo here](https://github.com/charlstown/Python-Project-Structure)
 
+Interested links:
+- [carlosgrande.me](https://carlosgrande.me/)
+- [Cookiecutter documentation]( https://cookiecutter.readthedocs.io/)
+- [Coockiecutter official repository](https://github.com/cookiecutter/cookiecutter)

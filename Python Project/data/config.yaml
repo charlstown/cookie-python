@@ -1,14 +1,14 @@
-# Configuration file for the project {{cookiecutter.project_name}}
-# Author/s: {{cookiecutter.author}}
+# Configuration file for the project Python Project
+# Author/s: Carlos Grande
 # -----------------------------------------------------
-# Date: {% now 'local', '%d/%m/%Y' %}
-# License: {{cookiecutter.license}}
-# Version: {{cookiecutter.version}}
-# Maintainer: {{cookiecutter.maintainer}}
+# Date: 02/12/2022
+# License: GNU General Public License
+# Version: 0.1.0
+# Maintainer: Carlos Grande
 # -----------------------------------------------------
 
 # Paths configuration parameters
-project_name: "{{cookiecutter.project_name}}"
+project_name: "Python Project"
 path_logs: data/logs/file.log
 
 

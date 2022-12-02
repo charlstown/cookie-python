@@ -1,9 +1,9 @@
-# {{cookiecutter.project_name}}
+# Python Project
 
-[![python](https://img.shields.io/badge/python-{{cookiecutter.python_version}}-blue.svg)](https://pypi.org/project/cookiecutter/)
-[![license](https://img.shields.io/badge/license-{{cookiecutter.license.strip().lower().replace(' ', '%20')}}-green.svg)](https://choosealicense.com/licenses/)
+[![python](https://img.shields.io/badge/python-3.10-blue.svg)](https://pypi.org/project/cookiecutter/)
+[![license](https://img.shields.io/badge/license-gnu%20general%20public%20license-green.svg)](https://choosealicense.com/licenses/)
 
-{{cookiecutter.one_line_description}}
+Description in less than 10 words
 
 </br>
 
@@ -23,7 +23,7 @@
 ![Logo](data/logo.png)
 </br>
 
-*Repository url:* https://github.com/{{cookiecutter.repository_url}}
+*Repository url:* https://github.com/https://github.com/charlstown/python-project
 
 ---
 

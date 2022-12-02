@@ -1,10 +1,14 @@
 {
-    "project_name": "MyProject",
+    "project_name": "My Python Project",
     "one_line_description": "Description in less than 10 words",
-    "author": "Charlstown",
-    "user_git": "{{cookiecutter.author|lower}}",
+    "author": "Carlos Grande",
+    "github_user": "charlstown",
+    "repository_name": "{{ cookiecutter.project_name.strip().lower().replace(' ', '-') }}",
+    "package_name": "{{ cookiecutter.project_name.strip().lower().replace(' ', '-').replace('-', '_') }}",
+    "repository_url": "https://github.com/{{ cookiecutter.github_user }}/{{ cookiecutter.repository_name }}",
     "maintainer": "{{cookiecutter.author}}",
     "license": ["MIT", "Apache 2.0", "GNU General Public License", "Custom"],
-    "version": 1.0,
-    "contact": "{{cookiecutter.author|lower}}@mail.com"
+    "version": "0.1.0",
+    "env_name": "{{ cookiecutter.repository_name }}",
+    "python_version": "3.10"
 }
