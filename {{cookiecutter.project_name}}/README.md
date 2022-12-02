@@ -1,5 +1,23 @@
 # {{cookiecutter.project_name}}
+
+[![python](https://img.shields.io/badge/python-%3E%3D%203.6-blue.svg)](https://pypi.org/project/cookiecutter/)
+[![license](https://img.shields.io/badge/license-{{coockicutter.license}}-green.svg)](https://opensource.org/licenses/MIT)
+
 {{cookiecutter.one_line_description}}
+
+</br>
+
+<details><summary><b>Readme contents</b></summary>
+
+- [1. Description](#1-Description)
+- [2. Installation](#2-Installation)
+- [3. Usage](#3-Usage)
+- [4. Troubleshooting](#4-Troubleshooting)
+- [5. Disclaimer](#5-Disclaimer)
+- [6. Help wanted](#6-Help-wanted)
+- [7. Other links](#7-Other-links)
+
+</details>
 
 </br>
 ![Logo](data/logo.png)
