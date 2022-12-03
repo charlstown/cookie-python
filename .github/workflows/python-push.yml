@@ -28,6 +28,6 @@ jobs:
         cd ..
         # Create project from template
         cookiecutter --no-input ./py-template
-        cd MyProject
+        cd my-python-project
         # Run the script to check there are no errors
         python code/main.py -l debug
