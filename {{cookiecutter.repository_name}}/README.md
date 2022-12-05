@@ -3,7 +3,7 @@
 [![python](https://img.shields.io/badge/python-{{cookiecutter.python_version}}-red.svg)](https://pypi.org/project/cookiecutter/)
 [![license](https://img.shields.io/badge/license-{{cookiecutter.license.strip().lower().replace(' ', '%20')}}-blue.svg)](https://choosealicense.com/licenses/)
 
-{{cookiecutter.one_line_description}}
+{{cookiecutter.project_description}}
 
 </br>
 

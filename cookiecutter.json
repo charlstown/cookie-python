@@ -1,6 +1,6 @@
 {
     "project_name": "My Python Project",
-    "one_line_description": "Description in less than 10 words",
+    "project_description": "Description in less than 10 words",
     "author": "Carlos Grande",
     "github_user": "charlstown",
     "repository_name": "{{ cookiecutter.project_name.strip().lower().replace(' ', '-') }}",
