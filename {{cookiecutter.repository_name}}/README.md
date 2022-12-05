@@ -1,9 +1,9 @@
 # {{cookiecutter.project_name}}
 
-[![python](https://img.shields.io/badge/python-{{cookiecutter.python_version}}-blue.svg)](https://pypi.org/project/cookiecutter/)
-[![license](https://img.shields.io/badge/license-{{cookiecutter.license.strip().lower().replace(' ', '%20')}}-green.svg)](https://choosealicense.com/licenses/)
+[![python](https://img.shields.io/badge/python-{{cookiecutter.python_version}}-red.svg)](https://pypi.org/project/cookiecutter/)
+[![license](https://img.shields.io/badge/license-{{cookiecutter.license.strip().lower().replace(' ', '%20')}}-blue.svg)](https://choosealicense.com/licenses/)
 
-{{cookiecutter.one_line_description}}
+{{cookiecutter.project_description}}
 
 </br>
 
@@ -20,7 +20,9 @@
 </details>
 
 </br>
-![Logo](data/logo.png)
+
+![Logo](logo/logo_150.png)
+
 </br>
 
 *Repository url:* https://github.com/{{cookiecutter.repository_url}}

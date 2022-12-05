@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 # -----------------------------------------------------
-# Project: {{cookiecutter.project_name}}
+# Project: {{cookiecutter.repository_name}}
 # Author/s: {{cookiecutter.author}}
 # Maintainer/s: {{cookiecutter.maintainer}}
 # -----------------------------------------------------

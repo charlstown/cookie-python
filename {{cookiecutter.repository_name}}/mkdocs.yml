@@ -1,0 +1,3 @@
+site_name: {{ cookiecutter.repository_name }}
+site_description: {{ cookiecutter.project_description }}
+repo_url: {{ cookiecutter.repository_url }}
