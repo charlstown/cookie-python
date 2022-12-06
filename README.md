@@ -6,7 +6,7 @@
 A Python archetype to help developers begin developing a coding project.
 </br>
 
-![Logo](logo.png)
+![Logo](docs/assets/logo.png)
 
 # Table of Contents
 1. [What is PyTemplate](#1-what-is-pytemplate)

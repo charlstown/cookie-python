@@ -1,17 +1,43 @@
-# Welcome to MkDocs
+# PyTemplate Documentation
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+A Python archetype to help developers to start developing a coding project.
 
-## Commands
+**Repository: [https://github.com/charlstown/py-template.git](https://github.com/charlstown/py-template.git)**
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
 
-## Project layout
+![Project logo](assets/logo.png)
 
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+
+## What is PyTemplate
+
+A Python archetype to help developers begin developing a coding project. The archetype follows a customizable project structure using cookiecutter as a template generator.
+
+
+## Documentation contents
+
+The documentation site has the following pages structure.
+
+```
+mkdocs.yml                      # The configuration file.
+docs/                           # Documents directory
+├── assets                      # Assets directory
+├── index.md                    # [page] Home
+├── references.md               # [page] References
+├── user-guide                  # User guide submenu
+│   ├── getting-started.md      # [page] Getting started
+│   ├── set-up.md               # [page] Set up
+│   ├── usage.md                # [page] Usage             
+│   └── ci-cd.md                # [page] CI/CD Github
+└── dev-guide                   # Dev guide submenu
+    ├── contribute.md           # [page] Contribute
+    └── document.md             # [page] Document
+```
+
+## The user guide
+
+User guide explanation.
+
+
+## The Developer guide
+
+Developer guide explanation.
