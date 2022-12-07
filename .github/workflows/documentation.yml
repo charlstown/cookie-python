@@ -24,6 +24,7 @@ jobs: # Jobs to run
             key: $/{/{ env.pythonLocation /}/}-$/{/{ hashFiles('setup.py') /}/}-$/{/{ hashFiles('requirements.txt') /}/} # Key to use for restoring and saving the cache
         - name: Install dependencies # Name of the step
           run: | # Command to run
-            python -m pip install -e ".[docs]" --no-cache-dir
+            python -m pip install --upgrade pip
+            pip install mkdocs
         - name: Deploy documentation # Name of the step
           run: mkdocs gh-deploy --force # Command to run
