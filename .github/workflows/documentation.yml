@@ -25,4 +25,4 @@ jobs: # Jobs to run
             pip install mkdocs-material
             pip install pymdown-extensions
         - name: Deploy documentation # Name of the step
-          run: mkdocs gh-deploy --force # Command to run
+          run: mkdocs gh-deploy --clean --force # Command to run
