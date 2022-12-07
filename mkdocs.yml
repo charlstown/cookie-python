@@ -39,7 +39,7 @@ nav:
       - Usage: 'user-guide/usage.md'
       - CI CD: 'user-guide/ci-cd.md'
     - Dev Guide:
-      - Contribute: 'dev-guide/contrbute.md'
+      - Contribute: 'dev-guide/contribute.md'
       - Document: 'dev-guide/document.md'
     - References: 'references.md'
 
