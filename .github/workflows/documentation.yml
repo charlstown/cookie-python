@@ -7,7 +7,8 @@ on: # Events that trigger the workflow
         branches: # Branches to run the workflow on
         - gh-pages # Run the workflow on the master branch
 jobs: # Jobs to run
-    build-docs: # Name of the job
+    deploy: # Name of the job
+        name: deploy-documentation
         runs-on: ubuntu-latest # Operating system to run the job on
         steps: # Steps to run
         - name: Checkout repo # Name of the step
