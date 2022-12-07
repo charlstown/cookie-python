@@ -4,7 +4,8 @@ A Python archetype to help developers to start developing a coding project.
 
 **Repository: [https://github.com/charlstown/py-template.git](https://github.com/charlstown/py-template.git)**
 
-THIS IS A TEST
+
+**THIS IS A TEST**
 
 
 ![Project logo](assets/logo.png)
