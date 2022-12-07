@@ -21,8 +21,8 @@ jobs: # Jobs to run
         - name: Install dependencies # Name of the step
           run: | # Command to run
             python -m pip install --upgrade pip
-            pip install mkdocs==1.1.2
+            pip install mkdocs
             pip install mkdocs-material
             pip install pymdown-extensions
         - name: Deploy documentation # Name of the step
-          run: mkdocs gh-deploy --clean --force # Command to run
+          run: mkdocs gh-deploy --clean --force --verbose # Command to run

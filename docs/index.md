@@ -5,15 +5,22 @@ A Python archetype to help developers to start developing a coding project.
 **Repository: [https://github.com/charlstown/py-template.git](https://github.com/charlstown/py-template.git)**
 
 
-**THIS IS A TEST**
-
-
 ![Project logo](assets/logo.png)
 
 
 ## What is PyTemplate
 
 A Python archetype to help developers begin developing a coding project. The archetype follows a customizable project structure using cookiecutter as a template generator.
+
+
+## The user guide
+
+If you want to simply run the project as a user you can visit the [User Guide](https://charlstown.github.io/py-template/user-guide/getting-started/) to learn how to get started, set up and use this code.
+
+
+## The Developer guide
+
+If you want to contribute to the project or to have a deeply understanding about how the project works, you can visit the [Developer Guide](https://charlstown.github.io/py-template/dev-guide/contribute/).
 
 
 ## Documentation contents
@@ -35,12 +42,3 @@ docs/                           # Documents directory
     ├── contribute.md           # [page] Contribute
     └── document.md             # [page] Document
 ```
-
-## The user guide
-
-User guide explanation.
-
-
-## The Developer guide
-
-Developer guide explanation.

@@ -39,11 +39,14 @@ nav:
       - Getting Started: 'user-guide/getting-started.md'
       - Set Up: 'user-guide/set-up.md'
       - Usage: 'user-guide/usage.md'
-      - CI CD: 'user-guide/ci-cd.md'
+      - Help wanted: 'user-guide/usage.md'
     - Dev Guide:
       - Contribute: 'dev-guide/contribute.md'
       - Document: 'dev-guide/document.md'
+      - CI CD: 'dev-guide/ci-cd.md'
     - References: 'references.md'
+    - License: 'license.md'
+    - Changelog: 'changelog.md'
 
 
 # Extensions
