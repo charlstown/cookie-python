@@ -1,11 +1,11 @@
 name: documentation # Name of the workflow
 on: # Events that trigger the workflow
-push: # Trigger the workflow on push
-    branches: # Branches to run the workflow on
-    - gh-pages # Run the workflow on the master branch
-pull_request: # Trigger the workflow on pull request
-    branches: # Branches to run the workflow on
-    - gh-pages # Run the workflow on the master branch
+    push: # Trigger the workflow on push
+        branches: # Branches to run the workflow on
+        - gh-pages # Run the workflow on the master branch
+    pull_request: # Trigger the workflow on pull request
+        branches: # Branches to run the workflow on
+        - gh-pages # Run the workflow on the master branch
 jobs: # Jobs to run
     build-docs: # Name of the job
         runs-on: ubuntu-latest # Operating system to run the job on
