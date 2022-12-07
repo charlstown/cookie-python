@@ -11,8 +11,7 @@ jobs:
   deploy:
     name: run-archetype
     runs-on: ubuntu-latest
-    steps:
-    # Step to set up python
+    steps:  # Step to set up python
     - uses: actions/checkout@v2
     - name: Set up Python
       uses: actions/setup-python@v4.3.0
