@@ -16,12 +16,12 @@ jobs: # Jobs to run
         - name: Set up Python # Name of the step
           uses: actions/setup-python@v2 # Action to run
           with: # Inputs for the action
-          python-version: 3.7.13 # Version of Python to use
+            python-version: 3.7.13 # Version of Python to use
         - name: Caching # Name of the step
           uses: actions/cache@v2 # Action to run
           with: # Inputs for the action
-          path: $/{/{ env.pythonLocation /}/} # Path to cache
-          key: $/{/{ env.pythonLocation /}/}-$/{/{ hashFiles('setup.py') /}/}-$/{/{ hashFiles('requirements.txt') /}/} # Key to use for restoring and saving the cache
+            path: $/{/{ env.pythonLocation /}/} # Path to cache
+            key: $/{/{ env.pythonLocation /}/}-$/{/{ hashFiles('setup.py') /}/}-$/{/{ hashFiles('requirements.txt') /}/} # Key to use for restoring and saving the cache
         - name: Install dependencies # Name of the step
           run: | # Command to run
             python -m pip install -e ".[docs]" --no-cache-dir
