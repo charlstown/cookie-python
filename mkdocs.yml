@@ -19,7 +19,7 @@ theme:
     # Palette toggle for light mode
     - scheme: default
       primary: blue grey
-      accent: indigo
+      accent: blueblue
       toggle:
         icon: material/brightness-7 
         name: Switch to dark mode
@@ -27,7 +27,7 @@ theme:
     # Palette toggle for dark mode
     - scheme: slate
       primary: blue grey
-      accent: indigo
+      accent: blue
       toggle:
         icon: material/brightness-4
         name: Switch to light mode
@@ -40,19 +40,24 @@ nav:
       - Getting Started: 'user-guide/getting-started.md'
       - Set Up: 'user-guide/set-up.md'
       - Usage: 'user-guide/usage.md'
-      - Help wanted: 'user-guide/usage.md'
+      - Help wanted: 'user-guide/help.md'
     - Dev Guide:
       - Contribute: 'dev-guide/contribute.md'
       - Document: 'dev-guide/document.md'
       - Release: 'dev-guide/release.md'
       - CI CD: 'dev-guide/ci-cd.md'
-    - References: 'references.md'
-    - License: 'license.md'
-    - Changelog: 'changelog.md'
+    - About:
+      - License: 'about/license.md'
+      - References: 'about/references.md'
+      - Changelog: 'about/changelog.md'
 
 
 # Extensions
 markdown_extensions:
-  - admonition
-  - pymdownx.details
-  - pymdownx.superfences
+  - admonition            # Block elements
+  - pymdownx.details      # Collapsible call-outs
+  - pymdownx.superfences  # Nested elements
+  - attr_list             # To add buttons
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg

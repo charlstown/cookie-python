@@ -1,16 +1,27 @@
-# PyTemplate Documentation
+# **PyTemplate Documentation**
 
-A Python archetype to help developers to start developing a coding project.
+A Python archetype to help developers begin developing a coding project. The archetype follows a customizable project structure using cookiecutter as a template generator.
 
-**Repository: [https://github.com/charlstown/py-template.git](https://github.com/charlstown/py-template.git)**
+[:simple-github: Visit the repository](https://github.com/charlstown/py-template.git){ .md-button }
 
+</br>
 
 ![Project logo](assets/logo.png)
 
 
-## What is PyTemplate
+## Quick start
 
-A Python archetype to help developers begin developing a coding project. The archetype follows a customizable project structure using cookiecutter as a template generator.
+**Setp 1 :** Installing cookiecutter package is very easy, you can simply run the next command to install it.
+
+``` bash
+pip install cookiecutter
+```
+
+**Step 2:** Run the cookiecutter command followed by the template repository URL.
+
+```bash
+cookiecutter https://github.com/charlstown/py-template.git
+```
 
 
 ## The user guide
@@ -42,3 +53,8 @@ docs/                           # Documents directory
     ├── contribute.md           # [page] Contribute
     └── document.md             # [page] Document
 ```
+
+
+## Contact and contributors
+
+[Carlos Grande (@charlstown) - maintainer](https://github.com/charlstown)
