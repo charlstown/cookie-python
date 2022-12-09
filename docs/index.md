@@ -30,12 +30,12 @@ python -m cookiecutter https://github.com/charlstown/py-template.git
 
 ## The user guide
 
-If you want to simply run the project as a user you can visit the [User Guide](https://charlstown.github.io/py-template/user-guide/getting-started/) to learn how to get started, set up and use this code.
+If you want to simply run the project as a user you can visit the [User Guide](/user-guide/getting-started/) to learn how to get started, set up and use this code.
 
 
 ## The Developer guide
 
-If you want to contribute to the project or to have a deeply understanding about how the project works, you can visit the [Developer Guide](https://charlstown.github.io/py-template/dev-guide/contribute/).
+If you want to contribute to the project or to have a deeply understanding about how the project works, you can visit the [Developer Guide](/dev-guide/contribute/).
 
 
 ## Documentation contents

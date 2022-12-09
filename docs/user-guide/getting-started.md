@@ -1,6 +1,6 @@
 # **User Guide**
 
-Guide to simply run the project as a user, learn how to get started, set up and use this code.
+This guide will help you to run the project as a user, learn how to get started, set up and use this code.
 
 </br>
 
@@ -61,5 +61,7 @@ To generate a custom project from the template, follow these steps:
     Fill out the form in the console to customize the template and the project will be generated at the end.
 
     ![project-generation](../assets/captures/gs-cookiecutter-template.png)
+
+Congrats! you finally installed your template to start coding your project. Visit the [Set Up section](/user-guide/set-up/) to learn more about the template generation and the input parameters.
 
 </br>
