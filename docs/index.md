@@ -11,7 +11,7 @@ A Python archetype to help developers begin developing a coding project. The arc
 
 ## Quick start
 
-**Setp 1 :** Installing cookiecutter package is very easy, you can simply run the next command to install it.
+**Step 1 :** Install the cookiecutter package, you can simply run the next command to install it.
 
 ``` bash
 pip install cookiecutter
@@ -20,8 +20,12 @@ pip install cookiecutter
 **Step 2:** Run the cookiecutter command followed by the template repository URL.
 
 ```bash
-cookiecutter https://github.com/charlstown/py-template.git
+python -m cookiecutter https://github.com/charlstown/py-template.git
 ```
+
+??? warning "Don't clone this repository"
+
+    You don't need to clone the template repository, cookiecutter will do that for you applying your own customization.
 
 
 ## The user guide

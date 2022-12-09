@@ -15,13 +15,13 @@ When a code version is ready, a new release can be published. The idea of this a
 
 To publish a new release you can select `create new relase` option in the repository and fill the release form.
 
-![New release](../assets/captures/new-release.png)
+![New release](../assets/captures/release-new-release.png)
 
 ### Step 1: add a tag
 
 You should provide a version ID by creating a new tag or by selecting a tag that has already been created on the `Choose a tag` button.
 
-![New tag](../assets/captures/new_tag.png)
+![New tag](../assets/captures/release-new-tag.png)
 
 
 ### Step 2: describe the new release
