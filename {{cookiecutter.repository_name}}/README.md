@@ -21,7 +21,7 @@
 
 </br>
 
-![Logo](logo/logo_150.png)
+![Logo](docs/assets/logo_150.png)
 
 </br>
 
