@@ -31,4 +31,4 @@ jobs:
         cookiecutter --no-input ./py-template
         cd my-python-project
         # Run the script to check there are no errors
-        python code/main.py -l debug
+        python src/my_python_project/main.py -l debug

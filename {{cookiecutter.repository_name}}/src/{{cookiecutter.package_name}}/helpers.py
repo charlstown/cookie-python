@@ -10,7 +10,7 @@
 import logging
 
 
-class ExampleClass:
+class Helpers:
     """
     Example class as a template for other classes. Explain the use of this class here.
     """
@@ -30,13 +30,13 @@ class ExampleClass:
         Explain here the usage of this method
         :return: None
         """
-        self.logger.info(f'This "{self._private_method.__name__}" is a method from {ExampleClass.__name__}.')
+        self.logger.info(f'This "{self._private_method.__name__}" is a method from {Helpers.__name__}.')
 
     def public_method(self):
         """
         Explain here the usage of this method
         :return: None
         """
-        self.logger.info(f'This "{self.public_method.__name__}" is a method from {ExampleClass.__name__}.')
+        self.logger.info(f'This "{self.public_method.__name__}" is a method from {Helpers.__name__}.')
         self._private_method()
         self.logger.info(f'This "{self.example_global_variable}" is a global variable.')
