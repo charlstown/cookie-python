@@ -1,6 +1,6 @@
 # **PyTemplate Documentation**
 
-A Python archetype to help developers begin developing a coding project. The archetype follows a customizable project structure using cookiecutter as a template generator.
+:cookie: A Cookiecutter template for general python developers. Reommended for DevOps & Data Science projects. The template follows a customizable project structure using cookiecutter as the template generator.
 
 [:simple-github: Visit the repository](https://github.com/charlstown/py-template.git){ .md-button }
 

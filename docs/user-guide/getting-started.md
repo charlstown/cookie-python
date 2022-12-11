@@ -62,6 +62,6 @@ To generate a custom project from the template, follow these steps:
 
     ![project-generation](../assets/captures/gs-cookiecutter-template.png)
 
-Congrats! you finally installed your template to start coding your project. Visit the [Set Up section](/user-guide/set-up/) to learn more about the template generation and the input parameters.
+Congrats! :fireworks: you finally installed your template to start coding your project. Visit the [Set Up section](/user-guide/set-up/) to learn more about the template generation and the input parameters.
 
 </br>
