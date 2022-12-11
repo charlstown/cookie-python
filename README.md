@@ -3,7 +3,7 @@
 [![python](https://img.shields.io/pypi/pyversions/cookiecutter.svg)](https://pypi.org/project/cookiecutter/)
 [![license](https://img.shields.io/badge/license-MIT-green.svg)](https://opensource.org/licenses/MIT)
 
-A Python archetype to help developers begin developing a coding project.
+:cookie: A cookiecutter template for general projects in python (DevOps & Data Science).
 </br>
 
 ![Logo](docs/assets/logo.png)
@@ -29,6 +29,23 @@ A command-line utility that creates projects from cookiecutters (project templat
 Visit these links to learn more about cookiecutter.
 Documentation: https://cookiecutter.readthedocs.io/
 GitHub: https://github.com/cookiecutter/cookiecutter
+
+## 1.2 Repository contents
+
+```
+PyTemplate                              -> Project directory.
+├── cookiecutter.json                   -> Cookiecutter values.
+├── {{cookiecutter.repository_name}}    -> Coockiecutter template.
+│   └── ...
+├── mkdocs.yml                          -> mkdocs configuration file.
+├── docs                                -> Project documentation.
+│   └── ...
+├── README.md                           -> README file.
+├── code_of_conduct.md                  -> Code of conduct file.
+├── contributing.md                     -> Contributing file.
+├── LICENSE                             -> LICENSE file.
+└── requirements.txt                    -> Requirements to run the project.
+```
 
 </br>
 
