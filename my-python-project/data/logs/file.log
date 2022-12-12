@@ -10,3 +10,27 @@
 2022-12-11 23:49:13,820 [INFO] helpers.py - _private_method (L33): This "_private_method" is a method from Helpers.
 2022-12-11 23:49:13,820 [INFO] helpers.py - public_method (L42): This "Hello World" is a global variable.
 2022-12-11 23:49:13,820 [INFO] main.py - run (L110): [1m[Exiting my-python-project app.Total elapsed time: 00:00:00.][0m
+2022-12-12 22:07:38,112 [DEBUG] main.py - __init__ (L50): 
+2022-12-12 22:07:38,113 [DEBUG] main.py - __init__ (L51): Initial args: 
+2022-12-12 22:07:38,113 [DEBUG] main.py - __init__ (L53): >> config: data/config.yaml
+2022-12-12 22:07:38,113 [DEBUG] main.py - __init__ (L53): >> log: ['debug']
+2022-12-12 22:07:38,114 [DEBUG] main.py - __init__ (L53): >> test: False
+2022-12-12 22:07:38,114 [DEBUG] main.py - __init__ (L54): 
+
+2022-12-12 22:07:38,114 [INFO] main.py - run (L99): [1m[Initializing my-python-project][0m
+2022-12-12 22:07:38,116 [INFO] helpers.py - public_method (L40): This "public_method" is a method from Helpers.
+2022-12-12 22:07:38,116 [INFO] helpers.py - _private_method (L33): This "_private_method" is a method from Helpers.
+2022-12-12 22:07:38,116 [INFO] helpers.py - public_method (L42): This "Hello World" is a global variable.
+2022-12-12 22:07:38,117 [INFO] main.py - run (L108): [1m[Exiting my-python-project app.Total elapsed time: 00:00:00.][0m
+2022-12-12 22:10:32,229 [DEBUG] main.py - __init__ (L50): 
+2022-12-12 22:10:32,231 [DEBUG] main.py - __init__ (L51): Initial args: 
+2022-12-12 22:10:32,232 [DEBUG] main.py - __init__ (L53): >> config: data/config.yaml
+2022-12-12 22:10:32,233 [DEBUG] main.py - __init__ (L53): >> log: ['debug']
+2022-12-12 22:10:32,234 [DEBUG] main.py - __init__ (L53): >> test: False
+2022-12-12 22:10:32,235 [DEBUG] main.py - __init__ (L54): 
+
+2022-12-12 22:10:32,236 [INFO] main.py - run (L99): [1m[Initializing my-python-project][0m
+2022-12-12 22:10:32,237 [INFO] helpers.py - public_method (L40): This "public_method" is a method from Helpers.
+2022-12-12 22:10:32,238 [INFO] helpers.py - _private_method (L33): This "_private_method" is a method from Helpers.
+2022-12-12 22:10:32,239 [INFO] helpers.py - public_method (L42): This "Hello World" is a global variable.
+2022-12-12 22:10:32,239 [INFO] main.py - run (L108): [1m[Exiting my-python-project app.Total elapsed time: 00:00:00.][0m
