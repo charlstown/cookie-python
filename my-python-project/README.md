@@ -1,9 +1,9 @@
-# {{cookiecutter.project_name}}
+# My Python Project
 
-[![python](https://img.shields.io/badge/python-{{cookiecutter.python_version}}-red.svg)](https://pypi.org/project/cookiecutter/)
-[![license](https://img.shields.io/badge/license-{{cookiecutter.license.strip().lower().replace(' ', '%20')}}-blue.svg)](https://choosealicense.com/licenses/)
+[![python](https://img.shields.io/badge/python-3.10-red.svg)](https://pypi.org/project/cookiecutter/)
+[![license](https://img.shields.io/badge/license-mit-blue.svg)](https://choosealicense.com/licenses/)
 
-{{cookiecutter.project_description}}
+Description in less than 20 words
 
 </br>
 
@@ -25,7 +25,7 @@
 
 </br>
 
-*Repository url:* https://github.com/{{cookiecutter.repository_url}}
+*Repository url:* https://github.com/https://github.com/charlstown/my-python-project
 
 ---
 

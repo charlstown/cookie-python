@@ -1,17 +1,64 @@
-# Welcome to MkDocs
+# **PyTemplate Documentation**
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+:cookie: A Cookiecutter template for general python developers. Reommended for DevOps & Data Science projects. The template follows a customizable project structure using cookiecutter as the template generator.
 
-## Commands
+[:simple-github: Visit the repository](https://github.com/charlstown/py-template.git){ .md-button }
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
+</br>
 
-## Project layout
+![Project logo](assets/logo.png)
 
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+
+## Quick start
+
+**Step 1 :** Install the cookiecutter package, you can simply run the next command to install it.
+
+``` bash
+pip install cookiecutter
+```
+
+**Step 2:** Run the cookiecutter command followed by the template repository URL.
+
+```bash
+python -m cookiecutter https://github.com/charlstown/py-template.git
+```
+
+??? warning "Don't clone this repository"
+
+    You don't need to clone the template repository, cookiecutter will do that for you applying your own customization.
+
+
+## The user guide
+
+If you want to simply run the project as a user you can visit the [User Guide](/user-guide/getting-started/) to learn how to get started, set up and use this code.
+
+
+## The Developer guide
+
+If you want to contribute to the project or to have a deeply understanding about how the project works, you can visit the [Developer Guide](/dev-guide/contribute/).
+
+
+## Documentation contents
+
+The documentation site has the following pages structure.
+
+```
+mkdocs.yml                      <- The configuration file.
+docs/                           <- Documents directory
+├── assets                      <- Assets directory
+├── index.md                    <- [page] Home
+├── references.md               <- [page] References
+├── user-guide                  <- User guide submenu
+│   ├── getting-started.md      <- [page] Getting started
+│   ├── set-up.md               <- [page] Set up
+│   ├── usage.md                <- [page] Usage             
+│   └── ci-cd.md                <- [page] CI/CD Github
+└── dev-guide                   <- Dev guide submenu
+    ├── contribute.md           <- [page] Contribute
+    └── document.md             <- [page] Document
+```
+
+
+## Contact and contributors
+
+[Carlos Grande (@charlstown) - maintainer](https://github.com/charlstown)

@@ -31,4 +31,4 @@ jobs:
         git clone {{cookiecutter.repository_name}}
         cd {{cookiecutter.repository_name}}
         # Run the script to check there are no errors
-        python code/main.py -l debug
+        python src/{{cookiecutter.package_name}}/main.py -l debug

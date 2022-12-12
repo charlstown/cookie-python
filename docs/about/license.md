@@ -1,4 +1,6 @@
-MIT License
+# License
+
+**MIT License**
 
 Copyright (c) 2022  Carlos Grande
 

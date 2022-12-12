@@ -3,10 +3,10 @@
 [![python](https://img.shields.io/pypi/pyversions/cookiecutter.svg)](https://pypi.org/project/cookiecutter/)
 [![license](https://img.shields.io/badge/license-MIT-green.svg)](https://opensource.org/licenses/MIT)
 
-A Python archetype to help developers begin developing a coding project.
+:cookie: A cookiecutter template for general projects in python (DevOps & Data Science).
 </br>
 
-![Logo](logo.png)
+![Logo](docs/assets/logo.png)
 
 # Table of Contents
 1. [What is PyTemplate](#1-what-is-pytemplate)
@@ -21,7 +21,7 @@ A Python archetype to help developers begin developing a coding project.
 
 # 1. What is PyTemplate
 
-A Python archetype to help developers begin developing a coding project. The archetype follows a customizable project structure using cookiecutter as a template generator.
+A Cookiecutter template for general python developers. Reommended for DevOps & Data Science projects. The template follows a customizable project structure using cookiecutter as the template generator.
 
 ## 1.1 What is cookiecutter
 A command-line utility that creates projects from cookiecutters (project templates), e.g. creating a Python package project from a Python package project template.
@@ -29,6 +29,23 @@ A command-line utility that creates projects from cookiecutters (project templat
 Visit these links to learn more about cookiecutter.
 Documentation: https://cookiecutter.readthedocs.io/
 GitHub: https://github.com/cookiecutter/cookiecutter
+
+## 1.2 Repository contents
+
+```
+PyTemplate                              -> Project directory.
+├── cookiecutter.json                   -> Cookiecutter values.
+├── {{cookiecutter.repository_name}}    -> Coockiecutter template.
+│   └── ...
+├── mkdocs.yml                          -> mkdocs configuration file.
+├── docs                                -> Project documentation.
+│   └── ...
+├── README.md                           -> README file.
+├── code_of_conduct.md                  -> Code of conduct file.
+├── contributing.md                     -> Contributing file.
+├── LICENSE                             -> LICENSE file.
+└── requirements.txt                    -> Requirements to run the project.
+```
 
 </br>
 

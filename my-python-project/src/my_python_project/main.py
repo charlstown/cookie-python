@@ -1,14 +1,14 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 # -----------------------------------------------------
-# Project: {{cookiecutter.project_name}}
-# Author/s: {{cookiecutter.author}}
+# Project: My Python Project
+# Author/s: Carlos Grande
 # -----------------------------------------------------
-# Date: {% now 'local', '%d/%m/%Y' %}
-# License: {{cookiecutter.license}}
-# Version: {{cookiecutter.version}}
-# Maintainer/s: {{cookiecutter.maintainer}}
-# Environment: {{cookiecutter.env_name}}
+# Date: 11/12/2022
+# License: MIT
+# Version: 0.1.0
+# Maintainer/s: Carlos Grande
+# Environment: my-python-project
 # -----------------------------------------------------
 
 # Libraries
@@ -19,7 +19,7 @@ import yaml
 import logging
 
 # Classes
-from exampleclass import ExampleClass
+from helpers import Helpers
 
 
 class App:
@@ -58,7 +58,7 @@ class App:
         self.log = logger
 
         # Global instances
-        self.example_class = ExampleClass(logger=logger, config=config)
+        self.example_class = Helpers(logger=logger, config=config)
 
     @staticmethod
     def _get_logger(level: str) -> logging.Logger:
@@ -100,7 +100,7 @@ class App:
         start_app = time.time()
         self.log.info(f"\033[1m[Initializing {self.config['project_name']}]\033[0m")
 
-        # >>> Start your code here <<<
+        # >>> Start your src here <<<
         self.example_class.public_method()
 
         # Exiting the app

@@ -1,4 +1,5 @@
+# code
 cookiecutter~=2.1.1
 
 # mkdocs theme
-mkdocs-bootstrap4
+mkdocs-material
