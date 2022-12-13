@@ -18,7 +18,6 @@ Examples of behaviors that contribute to creating a positive environment include
 
 Decisions are made based on technical merit and consensus. As contributor aspire to treat everyone equally, and to value all contributions. For more information on best practices, please review the Code of Conduct.
 
-</br>
 
 ## Types of Contributions
 
@@ -74,7 +73,6 @@ If you are proposing a feature:
 
 Remember that this is a volunteer-driven project, and that contributions are welcome :)
 
-</br>
 
 ## Set up the code for local development
 
@@ -113,7 +111,6 @@ git push origin name-of-your-bugfix-or-feature
 
 Go to the [pull request section](https://github.com/charlstown/py-template/pulls) in the repository and select the `New pull request` button.
 
-</br>
 
 ## Contributor Guidelines
 
