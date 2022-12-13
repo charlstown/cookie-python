@@ -44,9 +44,6 @@ Look through the GitHub issues for features. Anything tagged with “enhancement
 
 Please do not combine multiple feature enhancements into a single pull request.
 
-!!! Note
-    This project is very conservative, so new features that aren’t tagged with “please-help” might not get into core. We’re trying to keep the code base small, extensible, and streamlined. Whenever possible, it’s best to try and implement feature ideas as separate projects outside of the core codebase.
-
 
 ### 4. Write Documentation
 
