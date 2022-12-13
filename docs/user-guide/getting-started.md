@@ -1,9 +1,3 @@
-# **User Guide**
-
-This guide will help you to run the project as a user, learn how to get started, set up and use this code.
-
-</br>
-
 # Getting started
 
 ## 1. What is cookiecutter

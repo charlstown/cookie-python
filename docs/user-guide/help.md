@@ -1,6 +1,6 @@
 # Help Wanted
 
-This repository does provide the required installation instructions to run it by your own. Altough feel free to contact me on following channels to get support.
+This repository does provide the required installation instructions to run it by your own. Altough feel free to contact me on the following channels to get support.
 
 
 If you think your question is related with a bug or some type of malfunction you can [open an issue](https://github.com/charlstown/py-template/issues) and follow the [contribute section](/dev-guide/contribute/) on the dev-guide to understand how to do it.
