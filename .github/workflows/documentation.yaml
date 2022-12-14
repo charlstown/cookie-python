@@ -1,5 +1,10 @@
-name: documentation # Name of the workflow
+# Action to deploy the mkdocs documentation to the branch gh-pages.
+name: On Push Deploy Documentation # Name of the workflow
 on: push # Events that trigger the workflow
+  # push:
+  #   branches:
+  #     - main
+  #     - wip-release
 
 # Jobs
 jobs: # Jobs to run

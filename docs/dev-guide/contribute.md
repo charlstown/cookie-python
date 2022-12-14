@@ -90,7 +90,7 @@ pip install -m requirements.txt
 
 -> **Step 4:** Create your branch.
 
-```
+``` bash
 git checkout -b name-of-your-bugfix-or-feature
 ```
 
@@ -111,18 +111,26 @@ Go to the [pull request section](https://github.com/charlstown/py-template/pulls
 
 ## Contributor Guidelines
 
-### 1. Pull Request Guidelines
+### 1. Open Issue Guidelines
+
+Before opening an issue, check it meets these guidelines:
+
+- Add a description of the bug, feature request, feedback, etc.
+- Add a log, output or Screenshot if possible.
+- (optional) Add some tests or previous research if you did it.
+- Add version information from your OS, code language, libraries, etc.
+
+### 2. Pull Request Guidelines
 
 Before you submit a pull request, check that it meets these guidelines:
 
 - The pull request should be contained: if it’s too big consider splitting it into smaller pull requests.
-
 - If the pull request adds functionality, the docs should be updated. Put your new functionality into a function with a docstring, and add the feature to the list in README.md.
 - The pull request must pass all CI/CD jobs before being ready for review.
 - If one CI/CD job is failing for unrelated reasons you may want to create another PR to fix that first.
 
 
-### 2. Coding Standards
+### 3. Coding Standards
 
 - Use the [PEP8 style guide](https://peps.python.org/pep-0008/)
 - Functions should be over classes except in tests
