@@ -43,12 +43,10 @@ nav:
       - Help wanted: 'user-guide/help.md'
     - Dev Guide:
       - Contribute: 'dev-guide/contribute.md'
-      - Document: 'dev-guide/document.md'
-      - Release: 'dev-guide/release.md'
       - CI CD: 'dev-guide/ci-cd.md'
     - About:
       - License: 'about/license.md'
-      - References: 'about/references.md'
+      - External links: 'about/external-links.md'
       - Changelog: 'about/changelog.md'
 
 

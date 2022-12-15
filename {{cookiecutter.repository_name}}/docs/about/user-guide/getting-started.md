@@ -13,7 +13,7 @@ Visit these links to learn more about cookiecutter.
 
 To create a new project from the template you need to install cookiecutter and follow these instructions.
 
-### 2.1 Cookiecutter installation
+## 2.1 Cookiecutter installation
 
 Installing cookiecutter package on Ubuntu is very easy, you can simply run the next command to install it.
 
@@ -28,7 +28,7 @@ Visit the link to the [cookiecutter documentation](https://cookiecutter.readthed
     It is recommended to create a virtual environment and, install the cookiecutter library inside this environment.
 
 
-### 2.2 PyTemplate installation
+## 2.2 PyTemplate installation
 
 To generate a custom project from the template, follow these steps:
 
