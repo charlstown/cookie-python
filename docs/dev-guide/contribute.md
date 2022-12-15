@@ -129,12 +129,15 @@ Before you submit a pull request, check that it meets these guidelines:
 - The pull request must pass all CI/CD jobs before being ready for review.
 - If one CI/CD job is failing for unrelated reasons you may want to create another PR to fix that first.
 
-```
+
+To document your pull request you can follow the next example:
+
+``` markdown 
 # Preamble
 
 This is the first release of the archetype PyTemplate v1.0.0. A cookiecutter archetype to generate a clean base to begin developing data engineer and data science projects.
 
-The current stable state of the project is released knowing a bunch of changes is coming and things to improve.
+The current stable state of the project is released knowing there are a many changes is coming and things to improve.
 Future releases will happen more frequently. Stay tuned.
 
 
