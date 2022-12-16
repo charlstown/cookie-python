@@ -184,7 +184,7 @@ The configuration file is located in `/data/config.yaml` this file should contai
 
 ``` title="config.yaml"
 # Configuration parameters
-project_name: "{{cookiecutter.repository_name}}"
+project_name: "my-python-project"
 path_logs: data/logs/file.log
 
 # >>> Add your configuration parameters here <<<
