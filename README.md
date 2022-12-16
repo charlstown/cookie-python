@@ -69,7 +69,7 @@ To generate a custom project from the template, follow these steps:
 - 1. Navigate to the path where you desire to generate the project folder.
 - 2. Run the cookiecutter command followed by the repository URL.
   ```
-  cookiecutter https://github.com/charlstown/py-template.git
+  python -m cookiecutter https://github.com/charlstown/py-template.git
   ```
 - 3. Fill out the form in the console and the project will be generated at the end.
 
