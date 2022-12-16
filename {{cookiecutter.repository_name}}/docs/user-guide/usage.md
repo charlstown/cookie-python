@@ -1,25 +1,9 @@
 # Usage
 
-Once the template is applied, the base code directory will have the next structure following the [packaging.python.org](https://packaging.python.org/en/latest/tutorials/packaging-projects/?highlight=src#a-simple-project) rules.
+The file that acts as orchestrator of {{ cookiecutter.project_name }} is the `main.py` file. It should be always executed from the root path of the project.
 
-``` title="Base code generated from the template" hl_lines="4 5 6 8 9 10"
-my-python-project               <- Custom template project directory
-├── src                         <- Folder with the source files and packages.
-│   └── my_python_project       <- Folder with the package code files.
-│       ├── __init__.py         <- Constructor file.
-│       ├── main.py             <- File with the source code.
-│       └── helpers.py          <- Example class with helpers methods.
-├── data                        <- Data used for the project.
-│   ├── config.yaml             <- Configuration file.
-│   └── logs                    <- Logs folder.
-│       └── file.log            <- Logs file from the project.
-├ requirements.txt              <- Requirements file.
-...
-```
 
-## Running the base code
-
-Before starting to develop your own code you can run the base code by following the next steps.
+## Running code
 
 - **Step 1: Create your virtual environment(optional)**
 
@@ -41,6 +25,26 @@ Before starting to develop your own code you can run the base code by following 
     cd my-python-project
     python src/my_python_project/main.py -l debug 
     ```
+
+    ??? "Arguments to run the code"
+
+        asdfasdfa asdf asf
+
+        ``` python
+            parser = argparse.ArgumentParser()
+            parser.add_argument("--config", "-c",
+                                default="data/config.yaml",
+                                help="Add the config file path after this flag")
+            parser.add_argument('--log', "-l",
+                                choices=['debug', 'info', 'warning'],
+                                default=["info"],
+                                nargs="+")
+            parser.add_argument("--test", "-t",
+                                default=False,
+                                action='store_true',
+                                help="This argument is a switcher, by default is false")
+            my_args = parser.parse_args()
+        ```
 
     After running the command you should see an output showing the initial arguments and the execution of the public and private methods from the Helpers class.
 

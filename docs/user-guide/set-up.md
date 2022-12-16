@@ -48,7 +48,7 @@ repository_name
 ├── code_of_conduct.md          <- Code of conduct file.
 ├── LICENSE                     <- LICENSE file.
 ├── README.md                   <- README file.
-└── requirements.txt            <- Requirements
+└── requirements.txt            <- Requirements file.
 ```
 
 Visit the [Usage section](/user-guide/usage/) to learn how your new project customized from the cookicutter template works.

@@ -1,5 +1,2 @@
 # code
 cookiecutter~=2.1.1
-
-# mkdocs theme
-mkdocs-material

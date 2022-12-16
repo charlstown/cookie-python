@@ -40,8 +40,8 @@ class App:
         arg_level = args.log[0]
 
         # Reading the config json file
-        yaml_file = open(dir_config, 'r')
-        config = yaml.safe_load(yaml_file)
+        yaml_file = open(dir_config, 'r', encoding='utf8')
+        self.config = yaml.safe_load(yaml_file)
 
         # Getting logger
         logger = self._get_logger(level=arg_level)
@@ -54,14 +54,12 @@ class App:
         logger.debug("\n")
 
         # Global variables
-        self.config = config
         self.log = logger
 
         # Global instances
-        self.example_class = Helpers(logger=logger, config=config)
+        self.example_class = Helpers(logger=logger, config=self.config)
 
-    @staticmethod
-    def _get_logger(level: str) -> logging.Logger:
+    def _get_logger(self, level: str) -> logging.Logger:
         """
         Method to generate the logger used in the project
         :param level: the level of the logs to output
@@ -82,7 +80,7 @@ class App:
         my_logger = logging.getLogger(__name__)
 
         # Create a file log handler
-        file_handler = logging.FileHandler('data/logs/file.log')
+        file_handler = logging.FileHandler(self.config['path_logs'])
         file_handler.setLevel(logging.DEBUG)
         f_format = logging.Formatter(set_log_format)
         file_handler.setFormatter(f_format)
