@@ -33,6 +33,6 @@ python src/{{cookiecutter.repository_name}} -l debug
     It is recommended to create a virtual environment to run the project.
 
 
-Congrats! :fireworks: you finally installed the script. Visit the [Set Up section](/user-guide/set-up/) to learn more about the execution and the input parameters.
+Congrats! :fireworks: you finally installed the project. Visit the [Set Up section](/user-guide/set-up/) to learn more about the execution and the input parameters.
 
 </br>
