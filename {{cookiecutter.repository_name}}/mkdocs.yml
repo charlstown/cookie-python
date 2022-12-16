@@ -1,6 +1,6 @@
 site_name: PyTemplate
 site_description: A Python archetype documentation to help developers to start developing a coding project.
-repo_url: https://github.com/charlstown/py-template.git
+repo_url: {{ cookiecutter.repository_url }}
 
 # Configuration
 # Theme
