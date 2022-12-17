@@ -5,9 +5,9 @@
 - [Carlos Grande (@charlstown)](https://github.com/charlstown)
 
 
-## Version 0.1.0 (2022-12-15)
+## Version 0.1.0 ({% now 'local', '%d/%m/%Y' %})
 
-This is the first documentation release of [PyTemplate](https://github.com/charlstown/py-template) project.
+This is the first documentation release of [{{ cookiecutter.project_name }}]({{ cookiecutter.repository_url }}) project.
 
 
 **Features**

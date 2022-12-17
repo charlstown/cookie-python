@@ -28,11 +28,11 @@ python src/{{cookiecutter.repository_name}} -l debug
 ```
 
 
-??? note "Install cookiecutter in a virtual environment"
+??? note "Install the project libraries in a virtual environment"
 
     It is recommended to create a virtual environment to run the project.
 
 
-Congrats! :fireworks: you finally installed the project. Visit the [Set Up section](/user-guide/set-up/) to learn more about the execution and the input parameters.
+Congrats! :fireworks: you finally installed {{ cookiecutter.project_name }}. Visit the [Set Up section](/user-guide/set-up/) to learn more about the execution and the input parameters.
 
 </br>

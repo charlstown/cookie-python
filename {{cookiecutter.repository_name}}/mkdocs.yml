@@ -1,4 +1,4 @@
-site_name: PyTemplate
+site_name: 
 site_description: A Python archetype documentation to help developers to start developing a coding project.
 repo_url: {{ cookiecutter.repository_url }}
 
@@ -6,8 +6,8 @@ repo_url: {{ cookiecutter.repository_url }}
 # Theme
 theme:
   name: material
-  logo: assets/logo.png
-  favicon: assets/favicon.svg
+  logo: assets/logo_32.png
+  favicon: assets/logo_32.ico
   features:
     - navigation.tabs
     - navigation.sections
