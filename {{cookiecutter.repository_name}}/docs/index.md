@@ -32,12 +32,12 @@ python src/{{cookiecutter.repository_name}} -l debug
 
 ## The user guide
 
-If you want to simply run the project as a user you can visit the [User Guide]({{cookiecutter.repository_name}}/user-guide/getting-started/) to learn how to get started, set up and use this code.
+If you want to simply run the project as a user you can visit the [User Guide](user-guide/getting-started/) to learn how to get started, set up and use this code.
 
 
 ## The Developer guide
 
-If you want to contribute to the project or to have a deeply understanding about how the project works, you can visit the [Developer Guide]({{cookiecutter.repository_name}}/dev-guide/contribute/).
+If you want to contribute to the project or to have a deeply understanding about how the project works, you can visit the [Developer Guide](dev-guide/contribute/).
 
 
 ## Documentation contents

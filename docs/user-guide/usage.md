@@ -42,6 +42,23 @@ Before starting to develop your own code you can run the base code by following 
     python src/my_python_project/main.py -l debug 
     ```
 
+    ??? "Running the code with arguments"
+
+        When running the code you have the following flags to modify the behaviour of the program.
+
+        ``` bash
+        python src/{{ cookiecutter.package_name }}/main.py [flags]
+        ```
+
+        **Options:**
+
+        `-c <config file path>`, `--config <config file path>`
+        Add the config file path after this flag
+          
+        `-l ['debug', 'info', 'warning']`, `--log ['debug', 'info', 'warning']`
+        Set up de level of the logs promted. By default `info`
+
+
     After running the command you should see an output showing the initial arguments and the execution of the public and private methods from the Helpers class.
 
     ``` title="output"

@@ -1,7 +1,7 @@
 # Contribute
 
 Contributions are welcome, and they are greatly appreciated! Every little bit helps, and credit will always be given.
-This guide will help you to contribute in different ways to this project.
+This guide will help you to contribute in different ways to {{ cookiecutter.project_name }}.
 
 
 ## Contributor values
@@ -78,13 +78,13 @@ Remember that this is a volunteer-driven project, and that contributions are wel
 -> **Step 2:** Clone your fork locally.
 
 ``` bash
-git clone git@github.com:your_user_here/py-template.git
+git clone {{ cookiecutter.repository_url }}.git
 ```
 
 -> **Step 3:** Install requirements.
 
 ``` bash
-cd py-template
+cd {{ cookiecutter.repository_name }}
 pip install -m requirements.txt
 ```
 
@@ -106,7 +106,7 @@ git push origin name-of-your-bugfix-or-feature
 
 -> **Step 6:** Submit a pull request through the GitHub website.
 
-Go to the [pull request section](https://github.com/charlstown/py-template/pulls) in the repository and select the `New pull request` button.
+Go to the [pull request section](https://github.com/charlstown/{{ cookiecutter.repository_name }}/pulls) in the repository and select the `New pull request` button.
 
 
 ## Contributor Guidelines
@@ -135,21 +135,17 @@ To document your pull request you can follow the next example:
 ``` markdown 
 # Preamble
 
-This is the first release of the archetype PyTemplate v1.0.0. A cookiecutter archetype to generate a clean base to begin developing data engineer and data science projects.
-
-The current stable state of the project is released knowing there are a many changes is coming and things to improve.
-Future releases will happen more frequently. Stay tuned.
+A new method added to generate pdfs as an output by adding the flag `-p`, `--pdf`.
 
 
 # Features
 
-- CD added with a python-push.yml and GitHub actions
+- New output format for reports generation
 - Logger more detailed
-- README.md very detailed
 
 # Minor Changes
 
-- Documentation files added to the main repository
+- Documentation files updated
 
 
 # Bugfixes

@@ -23,44 +23,33 @@ The file that acts as orchestrator of {{ cookiecutter.project_name }} is the `ma
 
     ``` bash
     cd my-python-project
-    python src/my_python_project/main.py -l debug 
+    python src/{{ cookiecutter.package_name }}/main.py -l debug 
     ```
 
     ??? "Arguments to run the code"
 
-        asdfasdfa asdf asf
+        When running the code you have the following arguments to modify the behaviour of the program.
 
-        ``` python
-            parser = argparse.ArgumentParser()
-            parser.add_argument("--config", "-c",
-                                default="data/config.yaml",
-                                help="Add the config file path after this flag")
-            parser.add_argument('--log', "-l",
-                                choices=['debug', 'info', 'warning'],
-                                default=["info"],
-                                nargs="+")
-            parser.add_argument("--test", "-t",
-                                default=False,
-                                action='store_true',
-                                help="This argument is a switcher, by default is false")
-            my_args = parser.parse_args()
+        ``` bash
+        python src/{{ cookiecutter.package_name }}/main.py [flags]
         ```
+
+        **Options:**
+
+        `-c <config file path>`, `--config <config file path>`
+        Add the config file path after this flag
+          
+        `-l ['--debug', 'info', 'warning']`, `--log ['debug', 'info', 'warning']`
+        Set up de level of the logs promted. By default `info`
+
+        `-t`, `--test`
+        A switcher to run conditional tests, by default it's set to false.
+
 
     After running the command you should see an output showing the initial arguments and the execution of the public and private methods from the Helpers class.
 
     ``` title="output"
-    2022-12-11 23:49:13 [DEBUG] main.py - __init__ (L50): 
-    2022-12-11 23:49:13 [DEBUG] main.py - __init__ (L51): Initial args: 
-    2022-12-11 23:49:13 [DEBUG] main.py - __init__ (L53): >> config: data/config.yaml
-    2022-12-11 23:49:13 [DEBUG] main.py - __init__ (L53): >> log: ['debug']
-    2022-12-11 23:49:13 [DEBUG] main.py - __init__ (L53): >> test: False
-    2022-12-11 23:49:13 [DEBUG] main.py - __init__ (L54): 
-
-    2022-12-11 23:49:13 [INFO] main.py - run (L101): [Initializing my-python-project]
-    2022-12-11 23:49:13 [INFO] helpers.py - public_method (L40): This "public_method" is a method from Helpers.
-    2022-12-11 23:49:13 [INFO] helpers.py - _private_method (L33): This "_private_method" is a method from Helpers.
-    2022-12-11 23:49:13 [INFO] helpers.py - public_method (L42): This "Hello World" is a global variable.
-    2022-12-11 23:49:13 [INFO] main.py - run (L110): [Exiting my-python-project app.Total elapsed time: 00:00:00.]
+    << Add some part of the initial output>>
     ```
 
 
