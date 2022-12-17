@@ -1,7 +1,8 @@
 # {{cookiecutter.project_name}}
 
-[![python](https://img.shields.io/badge/python-{{cookiecutter.python_version}}-red.svg)](https://pypi.org/project/cookiecutter/)
-[![license](https://img.shields.io/badge/license-{{cookiecutter.license.strip().lower().replace(' ', '%20')}}-blue.svg)](https://choosealicense.com/licenses/)
+[![python](https://img.shields.io/badge/python-{{cookiecutter.python_version}}-blue.svg?style=flat&logo=python&logoColor=blue)](https://pypi.org/project/cookiecutter/)
+[![license](https://img.shields.io/badge/license-{{cookiecutter.license.strip().lower().replace(' ', '%20')}}-green.svg?logo=cachet&style=flat&logoColor=green)](https://choosealicense.com/licenses/)
+[![My Site](https://img.shields.io/badge/about%20me-carlosgrande.me-red?style=flat&logo=aboutdotme&logoColor=red)](https://carlosgrande.me/)
 
 {{cookiecutter.project_description}}
 

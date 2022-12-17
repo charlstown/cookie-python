@@ -1,7 +1,8 @@
 # PyTemplate
 
-[![python](https://img.shields.io/pypi/pyversions/cookiecutter.svg)](https://pypi.org/project/cookiecutter/)
-[![license](https://img.shields.io/badge/license-MIT-green.svg)](https://opensource.org/licenses/MIT)
+[![python](https://img.shields.io/pypi/pyversions/cookiecutter.svg?style=flat&logo=python&logoColor=blue)](https://pypi.org/project/cookiecutter/)
+[![license](https://img.shields.io/badge/license-MIT-green.svg?logo=cachet&style=flat&logoColor=green)](https://opensource.org/licenses/MIT)
+[![My Site](https://img.shields.io/badge/about%20me-carlosgrande.me-red?style=flat&logo=aboutdotme&logoColor=red)](https://carlosgrande.me/)
 
 :cookie: A cookiecutter template for general projects in python (DevOps & Data Science).
 </br>
