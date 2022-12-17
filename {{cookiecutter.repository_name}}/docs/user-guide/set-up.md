@@ -9,7 +9,7 @@ The Project directory will have the next structure following the [packaging.pyth
 
 ``` bash title="Contents"
 {{cookiecutter.repository_name}}
-├── src/{{ coockiecutter.package_name}} <- Folder with the package code files.
+├── src/{{ cookiecutter.package_name}} <- Folder with the package code files.
 │   ├── __init__.py                     <- Constructor file.
 │   ├── main.py                         <- File with the source code.
 │   └── helpers.py                      <- Example class with helpers methods.
