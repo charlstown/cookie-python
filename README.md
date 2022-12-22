@@ -22,7 +22,7 @@
 
 # 1. What is PyTemplate
 
-A Cookiecutter template for general python developers. Reommended for DevOps & Data Science projects. The template follows a customizable project structure using cookiecutter as the template generator.
+A Cookiecutter template for general python developers. Recommended for DevOps & Data Science projects. The template follows a customizable project structure using cookiecutter as the template generator.
 
 ## 1.1 What is cookiecutter
 A command-line utility that creates projects from cookiecutters (project templates), e.g. creating a Python package project from a Python package project template.
