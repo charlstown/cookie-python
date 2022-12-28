@@ -57,7 +57,7 @@ class App:
         self.log = logger
 
         # Global instances
-        self.example_class = Helpers(logger=logger, config=self.config)
+        self.helpers = Helpers(logger=logger, config=self.config)
 
     def _get_logger(self, level: str) -> logging.Logger:
         """
@@ -99,7 +99,7 @@ class App:
         self.log.info(f"\033[1m[Initializing {self.config['project_name']}]\033[0m")
 
         # >>> Start your src here <<<
-        self.example_class.public_method()
+        self.helpers.public_method()
 
         # Exiting the app
         end_app = time.time()
