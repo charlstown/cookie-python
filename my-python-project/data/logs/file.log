@@ -1,0 +1,12 @@
+2023-01-03 22:54:39,023 [DEBUG] main.py - __init__ (L50): 
+2023-01-03 22:54:39,023 [DEBUG] main.py - __init__ (L51): Initial args: 
+2023-01-03 22:54:39,023 [DEBUG] main.py - __init__ (L53): >> config: my_python_project/config/settings.yaml
+2023-01-03 22:54:39,024 [DEBUG] main.py - __init__ (L53): >> log: ['debug']
+2023-01-03 22:54:39,024 [DEBUG] main.py - __init__ (L53): >> test: False
+2023-01-03 22:54:39,024 [DEBUG] main.py - __init__ (L54): 
+
+2023-01-03 22:54:39,024 [INFO] main.py - run (L99): [1m[Initializing my-python-project][0m
+2023-01-03 22:54:39,024 [INFO] helpers.py - public_method (L44): This "public_method" is a method from Helpers.
+2023-01-03 22:54:39,024 [INFO] helpers.py - _private_method (L37): This "_private_method" is a method from Helpers.
+2023-01-03 22:54:39,025 [INFO] helpers.py - public_method (L46): This "Hello World" is a global variable.
+2023-01-03 22:54:39,025 [INFO] main.py - run (L108): [1m[Exiting my-python-project app.Total elapsed time: 00:00:00.][0m
