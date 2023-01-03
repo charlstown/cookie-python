@@ -7,7 +7,7 @@
 FROM python:3.8-slim
 
 # Copy the files to run the app
-COPY src /{{cookiecutter.project_name}}/src/{{cookiecutter.package_name}}
+COPY {{cookiecutter.package_name}} /{{cookiecutter.project_name}}/{{cookiecutter.package_name}}
 COPY data /{{cookiecutter.project_name}}/data
 COPY requirements.txt /{{cookiecutter.project_name}}
 
@@ -35,4 +35,4 @@ WORKDIR /{{cookiecutter.project_name}}
 #CMD tail -f /dev/null
 
 # Execute the script
-CMD [ "python", "src/main.py", "-l", "debug" ]
+CMD [ "python", "{{cookiecutter.package_name}}/main.py", "-l", "debug" ]

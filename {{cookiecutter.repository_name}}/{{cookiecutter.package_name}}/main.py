@@ -1,14 +1,14 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 # -----------------------------------------------------
-# Project: My Python Project
-# Author/s: Carlos Grande
+# Project: {{cookiecutter.project_name}}
+# Author/s: {{cookiecutter.author}}
 # -----------------------------------------------------
-# Date: 03/01/2023
-# License: MIT
-# Version: 0.1.0
-# Maintainer/s: Carlos Grande
-# Environment: my-python-project
+# Date: {% now 'local', '%d/%m/%Y' %}
+# License: {{cookiecutter.license}}
+# Version: {{cookiecutter.version}}
+# Maintainer/s: {{cookiecutter.maintainer}}
+# Environment: {{cookiecutter.env_name}}
 # -----------------------------------------------------
 
 # Libraries
@@ -115,7 +115,7 @@ if __name__ == "__main__":
     # Initialize the argument parser
     parser = argparse.ArgumentParser()
     parser.add_argument("--config", "-c",
-                        default="my_python_project/config/settings.yaml",
+                        default="{{ cookiecutter.package_name }}/config/settings.yaml",
                         help="Add the config file path after this flag")
     parser.add_argument('--log', "-l",
                         choices=['debug', 'info', 'warning'],

@@ -23,4 +23,4 @@ jobs: # Jobs to run
         cd ..
         cookiecutter --no-input ./py-template
         cd my-python-project
-        python src/my_python_project/main.py -l debug
+        python my_python_project/main.py -l debug
