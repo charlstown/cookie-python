@@ -49,9 +49,8 @@ If the contribution is in Python language, please follow the
 | Actions  | Example                                       | Description                                           |
 |----------|-----------------------------------------------|-------------------------------------------------------|
 | `update` | `[update]` secret added to the config-service | A commit in the code that doesn't change the outcome. |
-| `doc`    | `[doc]` added usage section                   | A commit that only change project documentation.      |
+| `wip`    | `[wip]` added new fetaures to home            | A commit of a develop that is still in progress.      |
 | `fix`    | `[fix]` string error                          | A commit pushed to fix a previous bug in the code.    |
-| `delete` | `[delete]` ignored folder in new version      | A commit with file deletions.                         |
 
 Example:
 
