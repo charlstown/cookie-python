@@ -28,7 +28,7 @@ Visit the link to the [cookiecutter documentation](https://cookiecutter.readthed
     It is recommended to create a virtual environment and, install the cookiecutter library inside this environment.
 
 
-### 2.2 PyTemplate installation
+### 2.2 Cookie Python installation
 
 To generate a custom project from the template, follow these steps:
 
