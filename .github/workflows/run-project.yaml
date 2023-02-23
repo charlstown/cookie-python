@@ -21,6 +21,6 @@ jobs: # Jobs to run
     - name: Run main.py  # Step to run the script
       run: | # Commands to create the cookiecutter template and run the project
         cd ..
-        cookiecutter --no-input ./py-template
+        cookiecutter --no-input ./cookie-python
         cd my-python-project
         python src/my_python_project/main.py -l debug
