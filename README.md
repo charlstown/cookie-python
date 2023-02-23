@@ -1,4 +1,4 @@
-# PyTemplate
+# Cookie Python
 
 [![python](https://img.shields.io/pypi/pyversions/cookiecutter.svg?style=flat&logo=python&logoColor=blue)](https://pypi.org/project/cookiecutter/)
 [![license](https://img.shields.io/badge/license-MIT-green.svg?logo=cachet&style=flat&logoColor=green)](https://opensource.org/licenses/MIT)
@@ -10,7 +10,7 @@
 ![Logo](docs/assets/logo.png)
 
 # Table of Contents
-1. [What is PyTemplate](#1-what-is-pytemplate)
+1. [What is Cookie Python](#1-what-is-cookie-python)
 2. [Installation](#2-installation)
 3. [Usage](#3-usage)
 4. [Troubleshooting](#4-troubleshooting)
@@ -20,7 +20,7 @@
 
   
 
-# 1. What is PyTemplate
+# 1. What is Cookie Python
 
 A Cookiecutter template for general python developers. Recommended for DevOps & Data Science projects. The template follows a customizable project structure using cookiecutter as the template generator.
 
@@ -34,7 +34,7 @@ GitHub: https://github.com/cookiecutter/cookiecutter
 ## 1.2 Repository contents
 
 ```
-PyTemplate                              -> Project directory.
+Cookie Python                           -> Project directory.
 ├── cookiecutter.json                   -> Cookiecutter values.
 ├── {{cookiecutter.repository_name}}    -> Coockiecutter template.
 │   └── ...
@@ -65,7 +65,7 @@ Visit the link to the cookiecutter documentation to learn more about the install
 [Install cookiecutter](https://cookiecutter.readthedocs.io/en/stable/installation.html#install-cookiecutter)
 
 
-## 2.2 PyTemplate installation
+## 2.2 Cookie Python installation
 To generate a custom project from the template, follow these steps:
 - 1. Navigate to the path where you desire to generate the project folder.
 - 2. Run the cookiecutter command followed by the repository URL.
