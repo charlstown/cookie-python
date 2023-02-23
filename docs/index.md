@@ -1,4 +1,4 @@
-# **PyTemplate Documentation**
+# **Cookie Python Documentation**
 
 :cookie: A Cookiecutter template for general python developers. Reommended for DevOps & Data Science projects. The template follows a customizable project structure using cookiecutter as the template generator.
 
